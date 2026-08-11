@@ -2,6 +2,7 @@ import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import pandas as pd
+from selenium.webdriver.common.by import By
 
 def setup_driver():
 
@@ -36,19 +37,39 @@ def extract_car_data(car_details):
 
 def scroll_and_scraper(driver, url, target_car_count = 500):
     driver.get(url)
-    time.sleep(5)
+    time.sleep(8)
+
+    all_extracted_cars = []
+    seen_cars = set()
 
     last_height = driver.execute_script("return document.body.scrollHeight")
-    while True:
+    while len(all_extracted_cars) < target_car_count:
 
-        driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+        driver.execute_script("window.scrollBy(0,document.body.scrollHeight);")
+        time.sleep(10)
 
-        time.sleep(3)
+        try:
+            view_more_btn = driver.find_element(By.XPATH,"//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz',)'more')]")    
+            driver.execute_script("arguments[0].click();",view_more_btn)
+            print("Found and clicked the 'View more' button! Loading next batch...")
+            time.sleep(3)
 
+        except:
+            pass
         soup = BeautifulSoup(driver.page_source, 'lxml')
         current_cards = soup.find_all('div', class_='styles_contentWrap__9oSrl')
 
-        print(f"Currently loaded {len(current_cards)} cars.....")
+        for card in current_cards:
+            car_data = extract_car_data(card)
+
+            if car_data['Title'] and car_data['Price']:
+                unique_id = f"{car_data['Title']} - {car_data['Price']}"
+
+                if unique_id not in seen_cars:
+                    seen_cars.add(unique_id)
+                    all_extracted_cars.append(car_data)
+
+        print(f"Currently loaded {len(current_cards)}/{target_car_count} cars.....")
 
         if len(current_cards) >= target_car_count:
             print("Target car volume reached!")
@@ -56,8 +77,13 @@ def scroll_and_scraper(driver, url, target_car_count = 500):
 
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
-            print("End of the page reached. No more cars to load.")
-            break
+            print("Height didn't change. Waiting 3 extra seconds to double check...")
+            time.sleep(3)
+            new_height = driver.execute_script("return document.body.scrollHeight")
+
+            if new_height == last_height:
+                print("End of the page truly reached. No more cars to load")
+                break
 
         last_height = new_height
 

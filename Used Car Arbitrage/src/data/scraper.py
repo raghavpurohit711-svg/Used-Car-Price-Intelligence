@@ -9,7 +9,6 @@ import pandas as pd
 
 def setup_driver():
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless") # Keep commented out to watch the bulldozer work
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
     return driver
@@ -18,19 +17,17 @@ def extract_car_data(card_soup):
     data_car = {}
     all_text = list(card_soup.stripped_strings)
 
-    # DEFAULT VALUES: We NEVER drop a car silently again!
     data_car['Title'] = "Missing Title"
     data_car['Price'] = "Missing Price"
     data_car['Kilometers'] = "Missing KM"
     data_car['Fuel_Type'] = "Missing Fuel"
     data_car['Transmission'] = "Missing Transmission"
 
-    # PRICE EXTRACTION
     prices = [t for t in all_text if '₹' in t and '/m' not in t.lower() and 'emi' not in t.lower()]
     if prices:
         data_car['Price'] = prices[-1]
 
-    # SPECS EXTRACTION
+   
     for text in all_text:
         text_lower = text.lower()
         if 'km' in text_lower and any(char.isdigit() for char in text_lower):
@@ -40,13 +37,11 @@ def extract_car_data(card_soup):
         elif text_lower in ['manual', 'automatic']:
             data_car['Transmission'] = text
 
-    # TITLE EXTRACTION (Hunts for the manufacturing year)
     for text in all_text:
         if re.match(r'^(19|20)\d{2}', text): 
             data_car['Title'] = text
             break
             
-    # Fallback if no year is found
     if data_car['Title'] == "Missing Title" and len(all_text) > 0:
         data_car['Title'] = max(all_text[:5], key=len)
 
@@ -65,7 +60,6 @@ def scroll_and_scrape(driver, url, target_car_count=500):
     
     while len(all_extracted_cars) < target_car_count:
         
-        # 1. THE PRECISION SHIELD-BREAKER (Only removes sticky overlays, safe!)
         driver.execute_script("""
             var elements = document.querySelectorAll('div, header, footer');
             for (var i = 0; i < elements.length; i++) {
@@ -76,26 +70,21 @@ def scroll_and_scrape(driver, url, target_car_count=500):
             }
         """)
         
-        # 2. THE BUTTON HUNTER (Searches for any button saying "View", "More", or "Load")
         try:
             view_btn = driver.find_element(By.XPATH, "//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'view') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'more')]")
             
-            # Scroll the button to the center of the screen so it isn't blocked, then click it
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", view_btn)
             time.sleep(1)
             driver.execute_script("arguments[0].click();", view_btn)
-            print(">>> PHYSICAL 'VIEW MORE' BUTTON CLICKED! Loading next batch... <<<")
+            print(" PHYSICAL 'VIEW MORE' BUTTON CLICKED! Loading next batch...")
             time.sleep(4)
         except:
-            pass # If the button isn't there, just ignore and keep scrolling
+            pass
         
-        # 3. Smooth scroll
         driver.execute_script("window.scrollBy(0, 700);")
         time.sleep(4.5) 
         
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        
-        # 4. THE FOOTPRINT LOCATOR (Tag-Agnostic Extraction)
         current_cards = []
         for div in soup.find_all('div'):
             strings = list(div.stripped_strings)
@@ -118,8 +107,6 @@ def scroll_and_scrape(driver, url, target_car_count=500):
         if len(all_extracted_cars) >= target_car_count:
             print("Target car volume reached!")
             break
-
-        # 5. Stuck Check
         if len(all_extracted_cars) == previous_car_count:
             stuck_counter += 1
             if stuck_counter >= 3:

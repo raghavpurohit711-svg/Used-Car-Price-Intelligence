@@ -1,41 +1,501 @@
 Fuel_Type,Transmission,Clean_Price,Clean_Kilometers,Year,Brand,Model
-Petrol,Manual,381000,40563,2023,Nissan,MAGNITE
+Petrol,Manual,382000,40563,2023,Nissan,MAGNITE
 Petrol,Manual,172000,43518,2015,Hyundai,Eon
-Petrol,Manual,350000,57298,2019,Maruti,Swift
-Petrol,Manual,330000,59675,2018,Maruti,Swift
-Petrol,Manual,323000,47304,2019,Maruti,Swift
-Petrol,Manual,244000,104834,2016,Ford,Ecosport
+Petrol,Manual,239000,42678,2017,Maruti,Wagon R 1.0
+Petrol,Manual,305000,50894,2017,Maruti,Baleno
 Petrol,Manual,223000,79321,2017,Maruti,Swift
+CNG,Manual,178000,71644,2016,Renault,Kwid
+Petrol,Manual,377000,63300,2018,Tata,NEXON
+Petrol,Manual,350000,57298,2019,Maruti,Swift
+Petrol,Manual,323000,47304,2019,Maruti,Swift
+Petrol,Manual,356000,54812,2022,Nissan,MAGNITE
+Petrol,Manual,291000,39097,2020,Renault,TRIBER
+Petrol,Manual,370000,23803,2021,Tata,Tiago
 CNG,Manual,164000,60214,2018,Datsun,Redi Go
-Petrol,Manual,265000,86606,2017,Maruti,Swift
-Petrol,Manual,153000,84560,2015,Maruti,Wagon R 1.0
-Petrol,Manual,215000,21215,2021,Renault,Kwid
-Petrol,Manual,254000,78099,2014,Honda,City
-Petrol,Manual,380000,66353,2015,Hyundai,Creta
+Petrol,Manual,148000,84560,2015,Maruti,Wagon R 1.0
 CNG,Manual,185000,66646,2014,Maruti,Celerio
-Petrol,Manual,390000,60650,2018,Hyundai,Elite i20
-Petrol,Manual,673000,63930,2016,Toyota,Innova Crysta
-Petrol,Manual,745000,19275,2025,Skoda,Kylaq
-Petrol,Auto,720000,68332,2020,Hyundai,Verna
-Petrol,Manual,320000,77678,2015,Hyundai,Verna
-Petrol,Manual,849000,75156,2021,Mahindra,Thar
+CNG,Manual,354000,61353,2019,Renault,TRIBER
+Petrol,Missing Transmission,772000,72725,2020,MG,HECTOR
+Petrol,Manual,309000,44793,2015,Honda,City
+Petrol,Manual,599000,85834,2020,KIA,SELTOS
+CNG,Manual,209000,127453,2016,Hyundai,Grand i10
 Petrol,Manual,195000,49255,2018,Renault,Kwid
-Petrol,Manual,310000,65394,2016,Maruti,Swift
-Petrol,Manual,172000,44574,2017,Renault,Kwid
-Petrol,Manual,130000,45001,2017,Renault,Kwid
-Petrol,Manual,235000,43479,2017,Maruti,Wagon R 1.0
-Petrol,Auto,569000,37676,2022,Nissan,MAGNITE
-Petrol,Manual,139000,61347,2017,Renault,Kwid
+Petrol,Manual,459999,59299,2021,Maruti,Dzire
+Petrol,Manual,302000,42304,2020,Renault,TRIBER
+Petrol,Missing Transmission,563000,37676,2022,Nissan,MAGNITE
+Petrol,Manual,905000,55720,2022,Maruti,Ertiga
+Petrol,Manual,372000,57562,2019,Tata,NEXON
 Petrol,Manual,153000,86988,2017,Renault,Kwid
-Petrol,Manual,320000,28783,2017,Maruti,Baleno
-Petrol,Manual,376000,71219,2022,Maruti,IGNIS
-Petrol,Manual,225999,58676,2016,Tata,Tiago
-Petrol,Manual,315000,68082,2020,Renault,TRIBER
-Petrol,Manual,295000,49557,2015,Hyundai,Elite i20
-Petrol,Manual,593000,50327,2022,Maruti,Vitara Brezza
-Petrol,Manual,308000,66760,2021,Tata,Tiago
-Petrol,Manual,254999,42192,2014,Maruti,Swift Dzire
-Petrol,Manual,265000,66367,2014,Honda,City
-Petrol,Manual,377000,57562,2019,Tata,NEXON
-Petrol,Manual,531000,50234,2023,Toyota,Glanza
+Petrol,Manual,215000,62667,2019,Renault,Kwid
+Petrol,Manual,310000,65394,2016,Maruti,Swift
+Petrol,Manual,295000,68082,2020,Renault,TRIBER
+Petrol,Manual,331000,121569,2021,Volkswagen,Polo
 Petrol,Manual,603000,51008,2019,KIA,SELTOS
+Petrol,Manual,173000,62563,2018,Renault,Kwid
+Petrol,Manual,531000,50234,2023,Toyota,Glanza
+Petrol,Manual,160000,44529,2018,Datsun,Redi Go
+Petrol,Manual,333000,64673,2021,Tata,ALTROZ
+Petrol,Manual,225999,58676,2016,Tata,Tiago
+Petrol,Manual,288000,53361,2016,Hyundai,Elite i20
+Diesel,Manual,610000,44784,2020,Hyundai,Creta
+Petrol,Manual,250000,42192,2014,Maruti,Swift Dzire
+Petrol,Manual,667000,63930,2016,Toyota,Innova Crysta
+CNG,Missing Transmission,775000,79209,2021,KIA,SELTOS
+Petrol,Manual,323000,66378,2017,Tata,NEXON
+Petrol,Manual,849000,75156,2021,Mahindra,Thar
+Petrol,Manual,363000,50864,2021,Nissan,MAGNITE
+Petrol,Manual,745000,19275,2025,Skoda,Kylaq
+Petrol,Manual,707000,38638,2021,MG,HECTOR
+Petrol,Manual,682000,54866,2021,MG,HECTOR
+Petrol,Missing Transmission,364000,56534,2017,Maruti,Baleno
+Petrol,Manual,101000,55446,2017,Datsun,Redi Go
+Petrol,Manual,330000,59675,2018,Maruti,Swift
+Petrol,Manual,333000,96018,2022,Renault,TRIBER
+Petrol,Manual,382000,25491,2020,Maruti,Swift
+Petrol,Manual,239000,104834,2016,Ford,Ecosport
+Petrol,Manual,305000,41975,2016,Hyundai,Elite i20
+Petrol,Manual,538000,67539,2018,Hyundai,Creta
+CNG,Manual,360000,75061,2021,Maruti,New Wagon-R
+Petrol,Manual,200000,53739,2016,Maruti,Wagon R 1.0
+Petrol,Manual,661000,39083,2021,Tata,NEXON
+Petrol,Manual,344000,72782,2016,Honda,City
+Petrol,Manual,152000,34061,2019,Datsun,Redi Go
+Petrol,Missing Transmission,760000,59718,2021,Skoda,KUSHAQ
+Petrol,Manual,505000,13029,2024,Maruti,Swift
+Petrol,Manual,365000,61522,2021,Maruti,Baleno
+Petrol,Missing Transmission,380000,75238,2017,Honda,City
+Petrol,Manual,293000,61665,2017,Ford,Ecosport
+Petrol,Missing Transmission,155000,85537,2014,Maruti,Celerio
+Petrol,Manual,209000,39588,2015,Maruti,Wagon R 1.0
+CNG,Manual,239000,67778,2016,Tata,Tiago
+Petrol,Manual,385000,60650,2018,Hyundai,Elite i20
+Petrol,Manual,320000,77678,2015,Hyundai,Verna
+Petrol,Manual,221000,94397,2017,Ford,Figo Aspire
+Petrol,Manual,154000,91133,2015,Hyundai,Grand i10
+Petrol,Manual,455999,13997,2023,Tata,PUNCH
+Petrol,Manual,361000,71660,2018,Ford,Ecosport
+Petrol,Manual,367000,53477,2017,Honda,City
+Petrol,Manual,387000,28953,2018,Tata,NEXON
+Petrol,Manual,1390000,67894,2022,Toyota,Innova Crysta
+Petrol,Manual,206000,54895,2015,Volkswagen,Polo
+Petrol,Manual,612000,37344,2019,MG,HECTOR
+Petrol,Missing Transmission,608000,61847,2018,Jeep,Compass
+Petrol,Manual,369000,50718,2020,Maruti,Swift
+Petrol,Manual,350000,64177,2018,Maruti,Swift
+CNG,Manual,244000,60113,2020,Renault,Kwid
+Petrol,Manual,283000,96012,2017,Hyundai,Grand i10
+CNG,Manual,236000,62267,2015,Hyundai,Elite i20
+Petrol,Manual,354000,37056,2017,Maruti,Ciaz
+Petrol,Manual,634000,35555,2021,Hyundai,VENUE
+Petrol,Manual,303000,51491,2016,Hyundai,Elite i20
+Petrol,Manual,295000,74135,2017,Maruti,Baleno
+Petrol,Manual,362000,65120,2018,Ford,Ecosport
+Diesel,Manual,852999,54557,2022,Tata,Harrier
+Petrol,Manual,256999,90927,2018,Tata,Tiago
+Petrol,Manual,299000,67937,2016,Honda,City
+Petrol,Manual,375000,66353,2015,Hyundai,Creta
+Diesel,Manual,858000,23542,2024,Mahindra,XUV300
+Petrol,Manual,593000,72099,2021,KIA,SELTOS
+Petrol,Missing Transmission,784000,34617,2020,MG,HECTOR
+Petrol,Manual,472000,96997,2021,Maruti,Vitara Brezza
+Petrol,Manual,135000,70864,2017,Renault,Kwid
+Petrol,Manual,235000,30605,2021,Renault,Kwid
+Petrol,Manual,248000,84536,2014,Hyundai,Elite i20
+CNG,Manual,185000,58922,2014,Maruti,Wagon R 1.0
+Petrol,Manual,315000,42836,2015,Hyundai,Elite i20
+Petrol,Manual,304000,55608,2016,Ford,Ecosport
+Petrol,Manual,152000,24800,2019,Datsun,Redi Go
+Petrol,Manual,229999,69872,2014,Maruti,Ciaz
+Petrol,Manual,353000,91857,2020,Volkswagen,Polo
+Petrol,Manual,627000,30329,2019,KIA,SELTOS
+Petrol,Manual,750000,87032,2019,MG,HECTOR
+Petrol,Manual,428000,38115,2022,Maruti,Swift
+Petrol,Manual,426000,17098,2024,Renault,TRIBER
+Petrol,Manual,157000,65480,2017,Renault,Kwid
+Petrol,Manual,374000,88526,2021,Maruti,Baleno
+CNG,Manual,311000,54402,2015,Hyundai,Elite i20
+CNG,Manual,196000,71023,2015,Maruti,Wagon R 1.0
+CNG,Manual,256000,71612,2017,Maruti,Wagon R 1.0
+Petrol,Manual,336000,51998,2023,Tata,Tiago
+Petrol,Manual,266000,52978,2016,Ford,Ecosport
+Petrol,Manual,360000,47755,2018,Honda,City
+Petrol,Manual,690000,93433,2020,KIA,SELTOS
+Petrol,Missing Transmission,910000,39182,2022,Skoda,SLAVIA
+Petrol,Manual,210000,67371,2015,Maruti,Swift
+Petrol,Manual,378000,64027,2019,Hyundai,Elite i20
+Petrol,Manual,475000,58255,2019,Hyundai,VENUE
+Petrol,Missing Transmission,380000,80459,2016,Volkswagen,Polo
+Petrol,Manual,545000,46450,2023,Maruti,Baleno
+CNG,Manual,318000,71407,2017,Maruti,Swift
+Petrol,Manual,252000,68077,2015,Hyundai,Elite i20
+Petrol,Manual,272000,58469,2014,Hyundai,Elite i20
+Petrol,Manual,375000,49798,2015,Maruti,Ciaz
+Petrol,Manual,263000,77669,2016,Hyundai,Grand i10
+Petrol,Missing Transmission,353000,54400,2015,Volkswagen,Polo
+Petrol,Manual,131000,24244,2014,Hyundai,Eon
+Petrol,Manual,442000,33170,2024,Maruti,Swift
+Petrol,Manual,389000,31340,2024,Maruti,New Wagon-R
+Petrol,Manual,305000,82765,2016,Hyundai,Elite i20
+Petrol,Manual,306000,43297,2014,Honda,City
+Petrol,Manual,524000,63827,2020,Hyundai,VENUE
+Petrol,Manual,352000,50796,2016,Maruti,Ciaz
+Petrol,Missing Transmission,264000,96653,2014,Volkswagen,Polo
+Petrol,Manual,599000,73678,2022,Skoda,KUSHAQ
+Petrol,Manual,387000,71971,2018,Maruti,Swift
+Petrol,Manual,259000,53016,2014,Hyundai,Elite i20
+Petrol,Manual,179000,95901,2016,Tata,Tiago
+CNG,Manual,296000,74329,2016,Ford,Ecosport
+Petrol,Manual,488999,64948,2019,Mahindra,XUV300
+Petrol,Manual,331000,43529,2023,Nissan,MAGNITE
+CNG,Manual,398000,104176,2022,Maruti,New Wagon-R
+CNG,Manual,385000,81896,2019,Hyundai,Elite i20
+Petrol,Manual,574000,42245,2021,Hyundai,VENUE
+Petrol,Manual,833000,44341,2024,KIA,SELTOS
+Petrol,Manual,973000,58030,2023,Volkswagen,VIRTUS
+Petrol,Missing Transmission,195000,45247,2017,Renault,Kwid
+Petrol,Manual,329000,137493,2022,Nissan,MAGNITE
+Petrol,Manual,320000,86118,2018,Hyundai,Elite i20
+Petrol,Manual,233000,60669,2014,Hyundai,Elite i20
+CNG,Manual,430000,33279,2022,Tata,Tiago
+Petrol,Missing Transmission,348000,44275,2015,Maruti,Ciaz
+Petrol,Missing Transmission,616000,118086,2020,Jeep,Compass
+Petrol,Manual,140000,45459,2016,Renault,Kwid
+Petrol,Manual,242000,67824,2017,Maruti,Swift
+Petrol,Manual,200999,56415,2015,Hyundai,Elite i20
+Petrol,Manual,220000,82513,2017,Toyota,Etios
+Petrol,Manual,386000,70432,2015,Maruti,Ertiga
+Petrol,Missing Transmission,381000,43017,2015,Honda,City
+Petrol,Manual,528000,51460,2022,Tata,NEXON
+Petrol,Missing Transmission,921000,47258,2022,Volkswagen,VIRTUS
+Petrol,Missing Transmission,250000,53835,2017,Renault,Kwid
+CNG,Manual,309000,109648,2020,Maruti,New Wagon-R
+Petrol,Manual,236000,75629,2016,Hyundai,Elite i20
+Petrol,Manual,238000,91334,2015,Hyundai,Elite i20
+Petrol,Manual,423000,11859,2024,Tata,Tiago
+Petrol,Manual,254000,116023,2015,Ford,Ecosport
+Petrol,Manual,388000,70803,2016,Hyundai,Creta
+Petrol,Manual,559000,60341,2022,Tata,NEXON
+Petrol,Manual,194000,43958,2016,Maruti,Alto K10
+Petrol,Manual,484999,34276,2024,Maruti,Baleno
+Petrol,Missing Transmission,366000,78934,2018,Hyundai,Elite i20
+Petrol,Manual,405000,12837,2022,Nissan,MAGNITE
+Petrol,Manual,550000,28342,2023,Toyota,Glanza
+Petrol,Manual,629000,69168,2019,Hyundai,Creta
+Petrol,Manual,577000,28505,2022,Mahindra,XUV300
+Petrol,Missing Transmission,1180000,53128,2023,MG,HECTOR
+Petrol,Manual,420000,82522,2023,Maruti,Baleno
+Petrol,Manual,165000,46155,2017,Renault,Kwid
+Petrol,Missing Transmission,254999,40395,2018,Maruti,Alto K10
+CNG,Manual,144000,97945,2014,Maruti,Wagon R 1.0
+Petrol,Manual,525000,63603,2020,Ford,Ecosport
+Petrol,Missing Transmission,1120000,26003,2024,Volkswagen,VIRTUS
+Petrol,Missing Transmission,459000,44956,2021,Maruti,Swift
+Petrol,Missing Transmission,225000,62978,2019,Renault,Kwid
+Petrol,Manual,365000,62456,2020,Tata,ALTROZ
+Petrol,Manual,150000,59844,2016,Maruti,Alto K10
+Petrol,Manual,422000,61660,2017,Hyundai,Creta
+Petrol,Manual,320000,75953,2019,Hyundai,Grand i10
+Petrol,Manual,447000,70814,2023,Nissan,MAGNITE
+Petrol,Missing Transmission,388000,97413,2018,Ford,Ecosport
+Petrol,Manual,408000,41765,2019,Tata,NEXON
+Petrol,Manual,305000,35595,2014,Honda,City
+Petrol,Missing Transmission,166000,38346,2018,Renault,Kwid
+Petrol,Missing Transmission,400000,44527,2019,Maruti,Swift
+Petrol,Manual,461000,13069,2022,Maruti,Swift
+Petrol,Manual,259000,63664,2017,Hyundai,Grand i10
+Petrol,Manual,465000,52034,2019,Ford,Ecosport
+Petrol,Manual,447000,50666,2021,Tata,NEXON
+Petrol,Manual,921000,29188,2024,Volkswagen,VIRTUS
+Petrol,Manual,304000,73338,2020,Tata,TIGOR
+Petrol,Missing Transmission,567000,45906,2021,Tata,NEXON
+Petrol,Manual,386000,110963,2017,Honda,City
+Diesel,Manual,933000,48427,2021,MG,HECTOR
+CNG,Manual,454000,27203,2025,Renault,Kwid
+Petrol,Manual,340000,69932,2018,Toyota,YARIS
+Petrol,Manual,157000,28086,2015,Maruti,Alto K10
+Petrol,Missing Transmission,310000,65031,2016,Hyundai,Grand i10
+Petrol,Manual,333000,32396,2015,Honda,City
+Petrol,Missing Transmission,491000,70067,2017,Hyundai,Creta
+CNG,Manual,264000,49363,2018,Hyundai,NEW SANTRO
+Petrol,Manual,298000,56442,2019,Renault,TRIBER
+Petrol,Missing Transmission,305000,69304,2019,Maruti,Celerio
+Petrol,Missing Transmission,627000,66441,2019,Hyundai,Creta
+Petrol,Missing Transmission,468000,53045,2018,Toyota,YARIS
+Diesel,Manual,940000,72016,2022,MG,HECTOR
+Petrol,Manual,249000,59928,2017,Hyundai,Grand i10
+Petrol,Missing Transmission,626000,34304,2021,Tata,NEXON
+Petrol,Missing Transmission,442000,57513,2018,Ford,Ecosport
+Petrol,Missing Transmission,455000,109066,2018,Toyota,YARIS
+Petrol,Manual,208000,65853,2015,Maruti,Swift Dzire
+Petrol,Manual,347000,43748,2022,Renault,TRIBER
+Petrol,Missing Transmission,325000,44705,2020,Maruti,Celerio
+Petrol,Manual,520000,36055,2019,Ford,Ecosport
+Petrol,Missing Transmission,631000,51264,2022,Tata,NEXON
+Petrol,Missing Transmission,867000,49612,2020,Hyundai,Creta
+Petrol,Missing Transmission,832000,84782,2021,MG,HECTOR
+Petrol,Manual,246000,25121,2016,Maruti,Swift Dzire
+Petrol,Manual,311000,68316,2019,Tata,TIGOR
+CNG,Missing Transmission,315000,66387,2019,Maruti,Celerio
+CNG,Manual,344000,84018,2014,Toyota,Corolla Altis
+Petrol,Manual,324000,37773,2017,Volkswagen,Ameo
+Petrol,Missing Transmission,877000,86162,2022,MG,HECTOR
+Petrol,Manual,153000,41553,2015,Maruti,Alto 800
+Petrol,Missing Transmission,216000,75697,2016,Maruti,Celerio
+Petrol,Manual,637000,42429,2021,KIA,SONET
+Petrol,Missing Transmission,551000,38909,2021,Ford,Ecosport
+Petrol,Missing Transmission,1443000,63201,2022,Mahindra,SCORPIO-N
+Diesel,Manual,969000,37327,2023,Hyundai,Creta
+Petrol,Manual,461000,34689,2022,Tata,PUNCH
+Petrol,Manual,133000,11457,2014,Maruti,Alto 800
+Petrol,Manual,479000,15192,2024,Renault,TRIBER
+Petrol,Missing Transmission,634000,16624,2023,Tata,NEXON
+CNG,Manual,580000,91247,2022,Tata,NEXON
+Diesel,Missing Transmission,1156000,72509,2023,Hyundai,Creta
+Petrol,Manual,142000,35191,2014,Maruti,Alto 800
+Petrol,Missing Transmission,304000,35077,2018,Maruti,Celerio
+Petrol,Manual,451999,82015,2020,Tata,NEXON
+Petrol,Manual,657000,72661,2023,Honda,City
+Hybrid,Missing Transmission,2855000,24109,2024,Toyota,INNOVA HYCROSS
+Petrol,Manual,320000,67925,2022,Renault,Kiger
+CNG,Manual,391000,68693,2022,Tata,TIGOR
+Petrol,Missing Transmission,440000,47908,2022,Maruti,Celerio
+Petrol,Missing Transmission,554000,63245,2018,Honda,City
+Diesel,Missing Transmission,535000,78603,2022,Tata,NEXON
+Petrol,Manual,560000,43458,2021,KIA,SONET
+Petrol,Manual,360000,60855,2020,Honda,Amaze
+CNG,Manual,270000,47578,2016,Maruti,Eeco
+Petrol,Manual,221000,47077,2017,Mahindra,Kuv100
+Petrol,Missing Transmission,243000,27601,2015,Ford,Figo Aspire
+Petrol,Manual,772000,45152,2024,Maruti,Grand Vitara
+Diesel,Missing Transmission,561000,98286,2022,Tata,NEXON
+Petrol,Missing Transmission,965000,5025,2025,Maruti,Ciaz
+Petrol,Manual,1249000,19587,2024,MG,HECTOR PLUS
+Petrol,Manual,245000,85097,2022,Maruti,S PRESSO
+Petrol,Manual,265000,41290,2017,Tata,TIGOR
+Petrol,Missing Transmission,275000,69913,2015,Hyundai,Grand i10
+Petrol,Manual,192000,40077,2017,Mahindra,Kuv100
+Petrol,Manual,470000,21295,2021,Ford,FREESTYLE
+Petrol,Missing Transmission,520000,69923,2017,Honda,City
+Petrol,Manual,724000,72949,2022,Maruti,Grand Vitara
+Petrol,Manual,528000,71143,2021,KIA,SONET
+Petrol,Missing Transmission,761000,56120,2023,Maruti,BREZZA
+Petrol,Missing Transmission,877000,15517,2024,Tata,NEXON
+CNG,Manual,440000,82280,2021,Hyundai,GRAND I10 NIOS
+Petrol,Manual,401000,18448,2022,Tata,PUNCH
+Petrol,Manual,533000,75203,2022,Maruti,BREZZA
+CNG,Manual,245000,22314,2016,Mahindra,Kuv100
+Petrol,Manual,461000,73770,2022,Hyundai,VENUE
+Petrol,Manual,511000,46295,2020,KIA,SONET
+Petrol,Manual,162000,50786,2014,Ford,Figo
+Petrol,Manual,351000,75369,2016,Hyundai,Verna
+CNG,Manual,465000,42108,2022,Tata,TIGOR
+Petrol,Manual,273000,39123,2017,Hyundai,Grand i10
+CNG,Manual,571000,81056,2023,Tata,ALTROZ
+Petrol,Manual,587000,65753,2022,Maruti,Vitara Brezza
+Petrol,Manual,451999,97414,2021,Hyundai,VENUE
+Petrol,Missing Transmission,789000,64119,2023,Hyundai,VENUE
+Petrol,Missing Transmission,819000,46199,2022,Maruti,BREZZA
+CNG,Missing Transmission,492000,55220,2022,Tata,PUNCH
+Petrol,Manual,471000,35022,2023,Tata,ALTROZ
+Petrol,Missing Transmission,629000,47305,2022,Maruti,Vitara Brezza
+Petrol,Missing Transmission,447000,62248,2017,Honda,City
+Petrol,Missing Transmission,583000,51345,2021,KIA,SONET
+Petrol,Manual,330000,82528,2018,Honda,WR-V
+Petrol,Missing Transmission,561000,61992,2024,Tata,ALTROZ
+CNG,Missing Transmission,220000,44971,2014,Hyundai,Grand i10
+Petrol,Missing Transmission,590000,25655,2023,Tata,ALTROZ
+Petrol,Manual,566000,35126,2021,Hyundai,VENUE
+CNG,Manual,405000,71249,2022,Tata,TIGOR
+Petrol,Manual,525000,50263,2021,Hyundai,VENUE
+Petrol,Manual,490000,22583,2021,Maruti,Vitara Brezza
+CNG,Missing Transmission,388000,113381,2018,Honda,Amaze
+Petrol,Manual,156000,65988,2013,Honda,Amaze
+Petrol,Manual,178000,68910,2015,Honda,Amaze
+Petrol,Missing Transmission,575000,41825,2022,Hyundai,NEW I20
+Petrol,Manual,195000,81613,2014,Hyundai,Grand i10
+Petrol,Manual,580000,2145,2021,Maruti,S Cross
+Petrol,Manual,923000,21293,2024,Mahindra,XUV 3XO
+Petrol,Manual,440000,53069,2019,Hyundai,i20 Active
+Petrol,Manual,612000,54682,2023,MG,ASTOR
+Petrol,Manual,172000,104808,2015,Hyundai,Grand i10
+Petrol,Missing Transmission,574000,40033,2024,Tata,ALTROZ
+Petrol,Manual,216000,82679,2016,Honda,Amaze
+Petrol,Manual,227999,86219,2017,Honda,Amaze
+Petrol,Missing Transmission,446000,27300,2021,Hyundai,GRAND I10 NIOS
+CNG,Manual,545000,42759,2023,Hyundai,AURA
+CNG,Missing Transmission,215000,40556,2014,Honda,Brio
+CNG,Manual,470000,89601,2022,Hyundai,AURA
+Petrol,Missing Transmission,654000,81425,2019,Hyundai,Verna
+Petrol,Manual,815000,66297,2022,Honda,City
+Petrol,Missing Transmission,1130000,44725,2023,Honda,ELEVATE
+Petrol,Manual,973000,50236,2024,Tata,Curvv
+Diesel,Manual,903999,81434,2023,Tata,Harrier
+Diesel,Missing Transmission,1280000,58699,2023,Tata,Safari
+Petrol,Missing Transmission,388000,32313,2019,Honda,Amaze
+Petrol,Manual,430999,36131,2024,Hyundai,AURA
+Petrol,Manual,770000,21318,2024,MG,ASTOR
+Petrol,Missing Transmission,752000,73004,2019,Honda,Civic
+Petrol,Missing Transmission,690000,87545,2020,KIA,SONET
+Petrol,Missing Transmission,1095000,29193,2024,Tata,Curvv
+Petrol,Manual,401000,39472,2020,Honda,Amaze
+Petrol,Missing Transmission,550000,121970,2022,Hyundai,NEW I20
+Petrol,Missing Transmission,688000,4362,2024,Hyundai,EXTER
+CNG,Missing Transmission,593000,12829,2023,Honda,Amaze
+Petrol,Missing Transmission,615000,26114,2023,Hyundai,EXTER
+Petrol,Missing Transmission,612000,34841,2021,KIA,SONET
+Petrol,Missing Transmission,949000,24466,2024,MG,ASTOR
+Petrol,Missing Transmission,417000,38726,2018,Honda,Amaze
+Petrol,Missing Transmission,826000,49289,2024,MG,ASTOR
+Petrol,Missing Transmission,863000,22658,2022,MG,ASTOR
+Diesel,Manual,1144000,7134,2024,Tata,Curvv
+Petrol,Missing Transmission,1247000,5279,2024,Honda,ELEVATE
+Petrol,Missing Transmission,455000,56907,2019,Honda,Amaze
+Petrol,Missing Transmission,742000,58139,2019,Hyundai,Creta
+Petrol,Manual,285000,76929,2015,Hyundai,i20 Active
+Petrol,Manual,484999,57612,2018,Maruti,Ciaz
+Petrol,Manual,130000,87845,2012,Maruti,Swift
+Diesel,Manual,262000,71473,2017,Mahindra,TUV300
+Petrol,Manual,147000,75080,2016,Datsun,Redi Go
+Petrol,Manual,148000,56653,2013,Maruti,Alto 800
+Petrol,Manual,215000,87596,2013,Maruti,Ertiga
+Petrol,Manual,193000,57084,2013,Maruti,Swift
+CNG,Manual,170000,85453,2015,Maruti,Wagon R 1.0
+Petrol,Manual,112999,83288,2014,Hyundai,Eon
+CNG,Manual,170000,73687,2013,Maruti,Wagon R 1.0
+Petrol,Manual,135000,95840,2013,Maruti,Alto K10
+CNG,Manual,170000,56374,2017,Maruti,Alto 800
+Petrol,Missing Transmission,531000,67199,2020,Maruti,Swift
+Petrol,Manual,250000,76466,2014,Honda,Amaze
+Petrol,Missing Transmission,125000,80000,2013,Hyundai,i10
+CNG,Manual,137000,80823,2013,Hyundai,i10
+Petrol,Manual,208000,20274,2016,Maruti,Alto 800
+CNG,Manual,175000,132475,2014,Maruti,Wagon R 1.0
+CNG,Manual,183000,164369,2014,Maruti,Wagon R 1.0
+Petrol,Missing Transmission,215000,75295,2014,Maruti,Celerio
+Petrol,Manual,190000,88042,2013,Honda,City
+Diesel,Manual,547000,48588,2018,Mahindra,XUV500
+Petrol,Manual,160000,51048,2016,Mahindra,Kuv100
+Diesel,Manual,260000,155606,2017,Ford,Ecosport
+CNG,Manual,550000,28181,2025,Maruti,New Wagon-R
+Diesel,Manual,281000,64960,2018,Ford,Figo Aspire
+Petrol,Manual,459999,73696,2020,Maruti,Baleno
+Petrol,Manual,440000,62559,2020,Maruti,Baleno
+Petrol,Missing Transmission,260000,55064,2014,Maruti,Celerio
+Petrol,Manual,509999,97627,2018,Maruti,Ertiga
+Diesel,Manual,407000,120130,2017,Tata,Hexa
+Petrol,Manual,210000,46754,2013,Ford,Ecosport
+Petrol,Manual,520000,11512,2023,Tata,TIGOR
+Petrol,Manual,390000,84047,2019,Maruti,Dzire
+Petrol,Missing Transmission,490000,105975,2019,Honda,Amaze
+CNG,Manual,335000,96199,2015,Hyundai,Verna
+Petrol,Manual,472000,76731,2019,Tata,NEXON
+Petrol,Missing Transmission,450000,47840,2018,Maruti,Swift
+Diesel,Manual,210000,71869,2016,Ford,New Figo
+Petrol,Manual,305000,82492,2014,Honda,City
+Petrol,Manual,295000,17658,2017,Maruti,Wagon R 1.0
+CNG,Missing Transmission,360000,72960,2019,Tata,NEXON
+CNG,Manual,356000,64230,2017,Ford,Ecosport
+Petrol,Manual,595000,45490,2017,Hyundai,Verna
+Diesel,Missing Transmission,400000,133124,2018,Tata,NEXON
+Diesel,Manual,459999,59616,2017,Maruti,S Cross
+CNG,Manual,475000,73347,2022,Tata,Tiago
+Petrol,Manual,330000,59054,2018,Maruti,Baleno
+CNG,Manual,295000,118767,2017,Maruti,Baleno
+Petrol,Manual,450000,47470,2018,Maruti,Baleno
+Petrol,Manual,380000,35129,2019,Maruti,Baleno
+Petrol,Manual,450000,58937,2017,Hyundai,Elite i20
+Petrol,Manual,185000,60298,2015,Honda,Brio
+Petrol,Manual,438000,65000,2021,Maruti,Swift
+Petrol,Manual,355000,37720,2019,Honda,WR-V
+Petrol,Manual,552000,50446,2023,Maruti,Swift
+CNG,Manual,330000,46681,2019,Maruti,Baleno
+Petrol,Manual,325000,73157,2017,Hyundai,Elite i20
+CNG,Manual,450000,56574,2022,Tata,Tiago
+CNG,Manual,67000,81140,2011,Hyundai,Santro Xing
+Petrol,Manual,151000,66876,2013,Honda,Amaze
+Petrol,Manual,380000,36482,2015,Hyundai,Creta
+Petrol,Manual,300000,50705,2014,Honda,Amaze
+Petrol,Manual,450000,26759,2015,Hyundai,Creta
+CNG,Manual,350000,88548,2019,Tata,Tiago
+Petrol,Manual,366000,105261,2015,Honda,City
+Petrol,Manual,300000,60286,2019,Maruti,New Wagon-R
+CNG,Manual,350000,89653,2021,Maruti,Alto
+CNG,Manual,350000,116979,2018,Maruti,Wagon R 1.0
+Petrol,Manual,220000,91638,2016,Hyundai,Grand i10
+Petrol,Manual,350000,123621,2017,Hyundai,Elite i20
+Petrol,Manual,440000,97621,2018,Honda,WR-V
+Diesel,Manual,375000,30782,2016,Mahindra,XUV500
+CNG,Manual,450000,82903,2020,Hyundai,GRAND I10 NIOS
+Petrol,Manual,600000,65378,2019,Hyundai,Creta
+Petrol,Missing Transmission,610000,50663,2021,Tata,NEXON
+Petrol,Manual,638000,201953,2018,Hyundai,Creta
+Petrol,Manual,700000,64992,2019,Honda,City
+Diesel,Manual,300000,213436,2016,Honda,BR-V
+Petrol,Manual,420000,26568,2020,Maruti,New Wagon-R
+Petrol,Manual,430000,29957,2021,Hyundai,NEW I20
+CNG,Manual,145000,94299,2013,Maruti,Alto 800
+CNG,Manual,180000,100992,2014,Maruti,Wagon R 1.0
+CNG,Manual,184000,128887,2013,Maruti,Wagon R 1.0
+Petrol,Manual,169000,44801,2013,Maruti,Wagon R 1.0
+Petrol,Manual,80000,15607,2011,Hyundai,Eon
+Petrol,Manual,375000,57164,2020,Hyundai,AURA
+Petrol,Manual,160000,80493,2012,Toyota,Etios
+CNG,Missing Transmission,640000,90938,2019,Hyundai,Verna
+Petrol,Manual,469000,18881,2022,Maruti,IGNIS
+Diesel,Manual,940000,44451,2019,Mahindra,XUV500
+CNG,Manual,127000,103553,2013,Maruti,Wagon R 1.0
+CNG,Manual,135000,189385,2013,Maruti,Wagon R 1.0
+Petrol,Manual,70000,97869,2012,Maruti,Alto
+CNG,Manual,93000,90182,2013,Maruti,Zen Estilo
+Petrol,Manual,85000,97764,2012,Maruti,Alto K10
+CNG,Manual,261000,52581,2020,Maruti,Alto
+CNG,Manual,180000,129978,2014,Maruti,Wagon R 1.0
+Petrol,Manual,158000,44956,2011,Honda,City
+Diesel,Manual,919999,45015,2021,Hyundai,Creta
+Petrol,Manual,950000,22872,2021,Hyundai,Creta
+Petrol,Manual,175000,98982,2013,Nissan,Terrano
+CNG,Manual,161000,87084,2014,Maruti,Wagon R 1.0
+Petrol,Manual,300000,88632,2017,Honda,City
+Petrol,Manual,94000,38849,2012,Hyundai,i10
+Petrol,Manual,132000,50730,2013,Maruti,Alto 800
+Petrol,Manual,1150000,48323,2022,Hyundai,Creta
+Petrol,Manual,170000,94412,2014,Maruti,Wagon R 1.0
+Petrol,Manual,150000,96990,2012,Maruti,Swift
+Diesel,Manual,900000,105945,2021,Hyundai,Creta
+Petrol,Manual,189000,58526,2013,Maruti,Wagon R 1.0
+Petrol,Missing Transmission,670000,66223,2023,Toyota,Glanza
+CNG,Manual,360000,121486,2018,Hyundai,Xcent
+Petrol,Manual,170000,82214,2015,Maruti,Wagon R 1.0
+CNG,Manual,185000,85703,2014,Maruti,Wagon R 1.0
+CNG,Manual,200000,73656,2014,Maruti,Wagon R 1.0
+Petrol,Manual,165000,47537,2015,Maruti,Eeco
+Petrol,Manual,210000,125613,2014,Hyundai,Grand i10
+Petrol,Manual,590000,58427,2020,KIA,SONET
+Petrol,Manual,225000,94889,2015,Maruti,Wagon R 1.0
+Petrol,Manual,250000,68383,2016,Maruti,Baleno
+CNG,Manual,145000,185459,2013,Maruti,Wagon R 1.0
+CNG,Manual,150000,95417,2013,Maruti,Wagon R 1.0
+Petrol,Manual,720000,56743,2022,MG,ASTOR
+Petrol,Manual,191000,75905,2017,Datsun,Redi Go
+Petrol,Manual,73000,106893,2011,Maruti,Alto K10
+CNG,Manual,122000,119823,2012,Maruti,Wagon R 1.0
+CNG,Manual,90000,103389,2012,Hyundai,Santro Xing
+Petrol,Manual,190000,62949,2014,Maruti,Wagon R 1.0
+Petrol,Manual,120000,83333,2013,Maruti,Alto 800
+Petrol,Manual,210000,116387,2012,Maruti,Swift
+CNG,Manual,110000,202450,2011,Honda,City
+Petrol,Manual,120000,159152,2012,Honda,City
+Petrol,Manual,340000,41931,2016,Hyundai,Grand i10
+Petrol,Manual,180000,58298,2012,Maruti,Swift
+Petrol,Manual,112999,41220,2011,Hyundai,i10
+CNG,Manual,180000,97888,2012,Maruti,Swift
+CNG,Manual,70000,109315,2011,Maruti,Alto
+CNG,Manual,135000,30719,2013,Maruti,Alto 800
+Petrol,Manual,220000,72000,2013,Hyundai,i20
+CNG,Manual,570000,33583,2024,Maruti,Baleno
+Petrol,Manual,1019000,31007,2022,Maruti,XL6
+Petrol,Manual,1010000,24631,2023,Tata,NEXON
+Diesel,Manual,260000,156173,2016,Hyundai,Elite i20
+Petrol,Manual,275000,68676,2016,Maruti,Baleno
+Petrol,Manual,130000,190330,2011,Maruti,Swift
+CNG,Manual,85000,160727,2011,Hyundai,i20

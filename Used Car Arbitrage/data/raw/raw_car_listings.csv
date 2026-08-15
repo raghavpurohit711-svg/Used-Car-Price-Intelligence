@@ -1,0 +1,501 @@
+Title,Price,Kilometers,Fuel_Type,Transmission
+2023 Nissan MAGNITE,₹3.82 lakh,"40,563 km",Petrol,Manual
+2015 Hyundai Eon,₹1.72 lakh,"43,518 km",Petrol,Manual
+2017 Maruti Wagon R 1.0,₹2.39 lakh,"42,678 km",Petrol,Manual
+2017 Maruti Baleno,₹3.05 lakh,"50,894 km",Petrol,Manual
+2017 Maruti Swift,₹2.23 lakh,"79,321 km",Petrol,Manual
+2016 Renault Kwid,₹1.78 lakh,"71,644 km",CNG,Manual
+2018 Tata NEXON,₹3.77 lakh,"63,300 km",Petrol,Manual
+2019 Maruti Swift,₹3.50 lakh,"57,298 km",Petrol,Manual
+2019 Maruti Swift,₹3.23 lakh,"47,304 km",Petrol,Manual
+2022 Nissan MAGNITE,₹3.56 lakh,"54,812 km",Petrol,Manual
+2020 Renault TRIBER,₹2.91 lakh,"39,097 km",Petrol,Manual
+2021 Tata Tiago,₹3.70 lakh,"23,803 km",Petrol,Manual
+2018 Datsun Redi Go,₹1.64 lakh,"60,214 km",CNG,Manual
+2015 Maruti Wagon R 1.0,₹1.48 lakh,"84,560 km",Petrol,Manual
+2014 Maruti Celerio,₹1.85 lakh,"66,646 km",CNG,Manual
+2019 Renault TRIBER,₹3.54 lakh,"61,353 km",CNG,Manual
+2020 MG HECTOR,₹7.72 lakh,"72,725 km",Petrol,Missing Transmission
+2015 Honda City,₹3.09 lakh,"44,793 km",Petrol,Manual
+2020 KIA SELTOS,₹5.99 lakh,"85,834 km",Petrol,Manual
+2016 Hyundai Grand i10,₹2.09 lakh,"1,27,453 km",CNG,Manual
+2018 Renault Kwid,₹1.95 lakh,"49,255 km",Petrol,Manual
+2021 Maruti Dzire,₹4.60 lakh,"59,299 km",Petrol,Manual
+2020 Renault TRIBER,₹3.02 lakh,"42,304 km",Petrol,Manual
+2022 Nissan MAGNITE,₹5.63 lakh,"37,676 km",Petrol,Missing Transmission
+2022 Maruti Ertiga,₹9.05 lakh,"55,720 km",Petrol,Manual
+2019 Tata NEXON,₹3.72 lakh,"57,562 km",Petrol,Manual
+2017 Renault Kwid,₹1.53 lakh,"86,988 km",Petrol,Manual
+2019 Renault Kwid,₹2.15 lakh,"62,667 km",Petrol,Manual
+2016 Maruti Swift,₹3.10 lakh,"65,394 km",Petrol,Manual
+2020 Renault TRIBER,₹2.95 lakh,"68,082 km",Petrol,Manual
+2021 Volkswagen Polo,₹3.31 lakh,"1,21,569 km",Petrol,Manual
+2019 KIA SELTOS,₹6.03 lakh,"51,008 km",Petrol,Manual
+2018 Renault Kwid,₹1.73 lakh,"62,563 km",Petrol,Manual
+2023 Toyota Glanza,₹5.31 lakh,"50,234 km",Petrol,Manual
+2018 Datsun Redi Go,₹1.60 lakh,"44,529 km",Petrol,Manual
+2021 Tata ALTROZ,₹3.33 lakh,"64,673 km",Petrol,Manual
+2016 Tata Tiago,₹2.26 lakh,"58,676 km",Petrol,Manual
+2016 Hyundai Elite i20,₹2.88 lakh,"53,361 km",Petrol,Manual
+2020 Hyundai Creta,₹6.10 lakh,"44,784 km",Diesel,Manual
+2014 Maruti Swift Dzire,₹2.50 lakh,"42,192 km",Petrol,Manual
+2016 Toyota Innova Crysta,₹6.67 lakh,"63,930 km",Petrol,Manual
+2021 KIA SELTOS,₹7.75 lakh,"79,209 km",CNG,Missing Transmission
+2017 Tata NEXON,₹3.23 lakh,"66,378 km",Petrol,Manual
+2021 Mahindra Thar,₹8.49 lakh,"75,156 km",Petrol,Manual
+2021 Nissan MAGNITE,₹3.63 lakh,"50,864 km",Petrol,Manual
+2025 Skoda Kylaq,₹7.45 lakh,"19,275 km",Petrol,Manual
+2021 MG HECTOR,₹7.07 lakh,"38,638 km",Petrol,Manual
+2021 MG HECTOR,₹6.82 lakh,"54,866 km",Petrol,Manual
+2017 Maruti Baleno,₹3.64 lakh,"56,534 km",Petrol,Missing Transmission
+2017 Datsun Redi Go,₹1.01 lakh,"55,446 km",Petrol,Manual
+2018 Maruti Swift,₹3.30 lakh,"59,675 km",Petrol,Manual
+2022 Renault TRIBER,₹3.33 lakh,"96,018 km",Petrol,Manual
+2020 Maruti Swift,₹3.82 lakh,"25,491 km",Petrol,Manual
+2016 Ford Ecosport,₹2.39 lakh,"1,04,834 km",Petrol,Manual
+2016 Hyundai Elite i20,₹3.05 lakh,"41,975 km",Petrol,Manual
+2018 Hyundai Creta,₹5.38 lakh,"67,539 km",Petrol,Manual
+2021 Maruti New Wagon-R,₹3.60 lakh,"75,061 km",CNG,Manual
+2016 Maruti Wagon R 1.0,₹2.00 lakh,"53,739 km",Petrol,Manual
+2021 Tata NEXON,₹6.61 lakh,"39,083 km",Petrol,Manual
+2016 Honda City,₹3.44 lakh,"72,782 km",Petrol,Manual
+2019 Datsun Redi Go,₹1.52 lakh,"34,061 km",Petrol,Manual
+2021 Skoda KUSHAQ,₹7.60 lakh,"59,718 km",Petrol,Missing Transmission
+2024 Maruti Swift,₹5.05 lakh,"13,029 km",Petrol,Manual
+2021 Maruti Baleno,₹3.65 lakh,"61,522 km",Petrol,Manual
+2017 Honda City,₹3.80 lakh,"75,238 km",Petrol,Missing Transmission
+2017 Ford Ecosport,₹2.93 lakh,"61,665 km",Petrol,Manual
+2014 Maruti Celerio,₹1.55 lakh,"85,537 km",Petrol,Missing Transmission
+2015 Maruti Wagon R 1.0,₹2.09 lakh,"39,588 km",Petrol,Manual
+2016 Tata Tiago,₹2.39 lakh,"67,778 km",CNG,Manual
+2018 Hyundai Elite i20,₹3.85 lakh,"60,650 km",Petrol,Manual
+2015 Hyundai Verna,₹3.20 lakh,"77,678 km",Petrol,Manual
+2017 Ford Figo Aspire,₹2.21 lakh,"94,397 km",Petrol,Manual
+2015 Hyundai Grand i10,₹1.54 lakh,"91,133 km",Petrol,Manual
+2023 Tata PUNCH,₹4.56 lakh,"13,997 km",Petrol,Manual
+2018 Ford Ecosport,₹3.61 lakh,"71,660 km",Petrol,Manual
+2017 Honda City,₹3.67 lakh,"53,477 km",Petrol,Manual
+2018 Tata NEXON,₹3.87 lakh,"28,953 km",Petrol,Manual
+2022 Toyota Innova Crysta,₹13.90 lakh,"67,894 km",Petrol,Manual
+2015 Volkswagen Polo,₹2.06 lakh,"54,895 km",Petrol,Manual
+2019 MG HECTOR,₹6.12 lakh,"37,344 km",Petrol,Manual
+2018 Jeep Compass,₹6.08 lakh,"61,847 km",Petrol,Missing Transmission
+2020 Maruti Swift,₹3.69 lakh,"50,718 km",Petrol,Manual
+2018 Maruti Swift,₹3.50 lakh,"64,177 km",Petrol,Manual
+2020 Renault Kwid,₹2.44 lakh,"60,113 km",CNG,Manual
+2017 Hyundai Grand i10,₹2.83 lakh,"96,012 km",Petrol,Manual
+2015 Hyundai Elite i20,₹2.36 lakh,"62,267 km",CNG,Manual
+2017 Maruti Ciaz,₹3.54 lakh,"37,056 km",Petrol,Manual
+2021 Hyundai VENUE,₹6.34 lakh,"35,555 km",Petrol,Manual
+2016 Hyundai Elite i20,₹3.03 lakh,"51,491 km",Petrol,Manual
+2017 Maruti Baleno,₹2.95 lakh,"74,135 km",Petrol,Manual
+2018 Ford Ecosport,₹3.62 lakh,"65,120 km",Petrol,Manual
+2022 Tata Harrier,₹8.53 lakh,"54,557 km",Diesel,Manual
+2018 Tata Tiago,₹2.57 lakh,"90,927 km",Petrol,Manual
+2016 Honda City,₹2.99 lakh,"67,937 km",Petrol,Manual
+2015 Hyundai Creta,₹3.75 lakh,"66,353 km",Petrol,Manual
+2024 Mahindra XUV300,₹8.58 lakh,"23,542 km",Diesel,Manual
+2021 KIA SELTOS,₹5.93 lakh,"72,099 km",Petrol,Manual
+2020 MG HECTOR,₹7.84 lakh,"34,617 km",Petrol,Missing Transmission
+2021 Maruti Vitara Brezza,₹4.72 lakh,"96,997 km",Petrol,Manual
+2017 Renault Kwid,₹1.35 lakh,"70,864 km",Petrol,Manual
+2021 Renault Kwid,₹2.35 lakh,"30,605 km",Petrol,Manual
+2014 Hyundai Elite i20,₹2.48 lakh,"84,536 km",Petrol,Manual
+2014 Maruti Wagon R 1.0,₹1.85 lakh,"58,922 km",CNG,Manual
+2015 Hyundai Elite i20,₹3.15 lakh,"42,836 km",Petrol,Manual
+2016 Ford Ecosport,₹3.04 lakh,"55,608 km",Petrol,Manual
+2019 Datsun Redi Go,₹1.52 lakh,"24,800 km",Petrol,Manual
+2014 Maruti Ciaz,₹2.30 lakh,"69,872 km",Petrol,Manual
+2020 Volkswagen Polo,₹3.53 lakh,"91,857 km",Petrol,Manual
+2019 KIA SELTOS,₹6.27 lakh,"30,329 km",Petrol,Manual
+2019 MG HECTOR,₹7.50 lakh,"87,032 km",Petrol,Manual
+2022 Maruti Swift,₹4.28 lakh,"38,115 km",Petrol,Manual
+2024 Renault TRIBER,₹4.26 lakh,"17,098 km",Petrol,Manual
+2017 Renault Kwid,₹1.57 lakh,"65,480 km",Petrol,Manual
+2021 Maruti Baleno,₹3.74 lakh,"88,526 km",Petrol,Manual
+2015 Hyundai Elite i20,₹3.11 lakh,"54,402 km",CNG,Manual
+2015 Maruti Wagon R 1.0,₹1.96 lakh,"71,023 km",CNG,Manual
+2017 Maruti Wagon R 1.0,₹2.56 lakh,"71,612 km",CNG,Manual
+2023 Tata Tiago,₹3.36 lakh,"51,998 km",Petrol,Manual
+2016 Ford Ecosport,₹2.66 lakh,"52,978 km",Petrol,Manual
+2018 Honda City,₹3.60 lakh,"47,755 km",Petrol,Manual
+2020 KIA SELTOS,₹6.90 lakh,"93,433 km",Petrol,Manual
+2022 Skoda SLAVIA,₹9.10 lakh,"39,182 km",Petrol,Missing Transmission
+2015 Maruti Swift,₹2.10 lakh,"67,371 km",Petrol,Manual
+2019 Hyundai Elite i20,₹3.78 lakh,"64,027 km",Petrol,Manual
+2019 Hyundai VENUE,₹4.75 lakh,"58,255 km",Petrol,Manual
+2016 Volkswagen Polo,₹3.80 lakh,"80,459 km",Petrol,Missing Transmission
+2023 Maruti Baleno,₹5.45 lakh,"46,450 km",Petrol,Manual
+2017 Maruti Swift,₹3.18 lakh,"71,407 km",CNG,Manual
+2015 Hyundai Elite i20,₹2.52 lakh,"68,077 km",Petrol,Manual
+2014 Hyundai Elite i20,₹2.72 lakh,"58,469 km",Petrol,Manual
+2015 Maruti Ciaz,₹3.75 lakh,"49,798 km",Petrol,Manual
+2016 Hyundai Grand i10,₹2.63 lakh,"77,669 km",Petrol,Manual
+2015 Volkswagen Polo,₹3.53 lakh,"54,400 km",Petrol,Missing Transmission
+2014 Hyundai Eon,₹1.31 lakh,"24,244 km",Petrol,Manual
+2024 Maruti Swift,₹4.42 lakh,"33,170 km",Petrol,Manual
+2024 Maruti New Wagon-R,₹3.89 lakh,"31,340 km",Petrol,Manual
+2016 Hyundai Elite i20,₹3.05 lakh,"82,765 km",Petrol,Manual
+2014 Honda City,₹3.06 lakh,"43,297 km",Petrol,Manual
+2020 Hyundai VENUE,₹5.24 lakh,"63,827 km",Petrol,Manual
+2016 Maruti Ciaz,₹3.52 lakh,"50,796 km",Petrol,Manual
+2014 Volkswagen Polo,₹2.64 lakh,"96,653 km",Petrol,Missing Transmission
+2022 Skoda KUSHAQ,₹5.99 lakh,"73,678 km",Petrol,Manual
+2018 Maruti Swift,₹3.87 lakh,"71,971 km",Petrol,Manual
+2014 Hyundai Elite i20,₹2.59 lakh,"53,016 km",Petrol,Manual
+2016 Tata Tiago,₹1.79 lakh,"95,901 km",Petrol,Manual
+2016 Ford Ecosport,₹2.96 lakh,"74,329 km",CNG,Manual
+2019 Mahindra XUV300,₹4.89 lakh,"64,948 km",Petrol,Manual
+2023 Nissan MAGNITE,₹3.31 lakh,"43,529 km",Petrol,Manual
+2022 Maruti New Wagon-R,₹3.98 lakh,"1,04,176 km",CNG,Manual
+2019 Hyundai Elite i20,₹3.85 lakh,"81,896 km",CNG,Manual
+2021 Hyundai VENUE,₹5.74 lakh,"42,245 km",Petrol,Manual
+2024 KIA SELTOS,₹8.33 lakh,"44,341 km",Petrol,Manual
+2023 Volkswagen VIRTUS,₹9.73 lakh,"58,030 km",Petrol,Manual
+2017 Renault Kwid,₹1.95 lakh,"45,247 km",Petrol,Missing Transmission
+2022 Nissan MAGNITE,₹3.29 lakh,"1,37,493 km",Petrol,Manual
+2018 Hyundai Elite i20,₹3.20 lakh,"86,118 km",Petrol,Manual
+2014 Hyundai Elite i20,₹2.33 lakh,"60,669 km",Petrol,Manual
+2022 Tata Tiago,₹4.30 lakh,"33,279 km",CNG,Manual
+2015 Maruti Ciaz,₹3.48 lakh,"44,275 km",Petrol,Missing Transmission
+2020 Jeep Compass,₹6.16 lakh,"1,18,086 km",Petrol,Missing Transmission
+2016 Renault Kwid,₹1.40 lakh,"45,459 km",Petrol,Manual
+2017 Maruti Swift,₹2.42 lakh,"67,824 km",Petrol,Manual
+2015 Hyundai Elite i20,₹2.01 lakh,"56,415 km",Petrol,Manual
+2017 Toyota Etios,₹2.20 lakh,"82,513 km",Petrol,Manual
+2015 Maruti Ertiga,₹3.86 lakh,"70,432 km",Petrol,Manual
+2015 Honda City,₹3.81 lakh,"43,017 km",Petrol,Missing Transmission
+2022 Tata NEXON,₹5.28 lakh,"51,460 km",Petrol,Manual
+2022 Volkswagen VIRTUS,₹9.21 lakh,"47,258 km",Petrol,Missing Transmission
+2017 Renault Kwid,₹2.50 lakh,"53,835 km",Petrol,Missing Transmission
+2020 Maruti New Wagon-R,₹3.09 lakh,"1,09,648 km",CNG,Manual
+2016 Hyundai Elite i20,₹2.36 lakh,"75,629 km",Petrol,Manual
+2015 Hyundai Elite i20,₹2.38 lakh,"91,334 km",Petrol,Manual
+2024 Tata Tiago,₹4.23 lakh,"11,859 km",Petrol,Manual
+2015 Ford Ecosport,₹2.54 lakh,"1,16,023 km",Petrol,Manual
+2016 Hyundai Creta,₹3.88 lakh,"70,803 km",Petrol,Manual
+2022 Tata NEXON,₹5.59 lakh,"60,341 km",Petrol,Manual
+2016 Maruti Alto K10,₹1.94 lakh,"43,958 km",Petrol,Manual
+2024 Maruti Baleno,₹4.85 lakh,"34,276 km",Petrol,Manual
+2018 Hyundai Elite i20,₹3.66 lakh,"78,934 km",Petrol,Missing Transmission
+2022 Nissan MAGNITE,₹4.05 lakh,"12,837 km",Petrol,Manual
+2023 Toyota Glanza,₹5.50 lakh,"28,342 km",Petrol,Manual
+2019 Hyundai Creta,₹6.29 lakh,"69,168 km",Petrol,Manual
+2022 Mahindra XUV300,₹5.77 lakh,"28,505 km",Petrol,Manual
+2023 MG HECTOR,₹11.80 lakh,"53,128 km",Petrol,Missing Transmission
+2023 Maruti Baleno,₹4.20 lakh,"82,522 km",Petrol,Manual
+2017 Renault Kwid,₹1.65 lakh,"46,155 km",Petrol,Manual
+2018 Maruti Alto K10,₹2.55 lakh,"40,395 km",Petrol,Missing Transmission
+2014 Maruti Wagon R 1.0,₹1.44 lakh,"97,945 km",CNG,Manual
+2020 Ford Ecosport,₹5.25 lakh,"63,603 km",Petrol,Manual
+2024 Volkswagen VIRTUS,₹11.20 lakh,"26,003 km",Petrol,Missing Transmission
+2021 Maruti Swift,₹4.59 lakh,"44,956 km",Petrol,Missing Transmission
+2019 Renault Kwid,₹2.25 lakh,"62,978 km",Petrol,Missing Transmission
+2020 Tata ALTROZ,₹3.65 lakh,"62,456 km",Petrol,Manual
+2016 Maruti Alto K10,₹1.50 lakh,"59,844 km",Petrol,Manual
+2017 Hyundai Creta,₹4.22 lakh,"61,660 km",Petrol,Manual
+2019 Hyundai Grand i10,₹3.20 lakh,"75,953 km",Petrol,Manual
+2023 Nissan MAGNITE,₹4.47 lakh,"70,814 km",Petrol,Manual
+2018 Ford Ecosport,₹3.88 lakh,"97,413 km",Petrol,Missing Transmission
+2019 Tata NEXON,₹4.08 lakh,"41,765 km",Petrol,Manual
+2014 Honda City,₹3.05 lakh,"35,595 km",Petrol,Manual
+2018 Renault Kwid,₹1.66 lakh,"38,346 km",Petrol,Missing Transmission
+2019 Maruti Swift,₹4.00 lakh,"44,527 km",Petrol,Missing Transmission
+2022 Maruti Swift,₹4.61 lakh,"13,069 km",Petrol,Manual
+2017 Hyundai Grand i10,₹2.59 lakh,"63,664 km",Petrol,Manual
+2019 Ford Ecosport,₹4.65 lakh,"52,034 km",Petrol,Manual
+2021 Tata NEXON,₹4.47 lakh,"50,666 km",Petrol,Manual
+2024 Volkswagen VIRTUS,₹9.21 lakh,"29,188 km",Petrol,Manual
+2020 Tata TIGOR,₹3.04 lakh,"73,338 km",Petrol,Manual
+2021 Tata NEXON,₹5.67 lakh,"45,906 km",Petrol,Missing Transmission
+2017 Honda City,₹3.86 lakh,"1,10,963 km",Petrol,Manual
+2021 MG HECTOR,₹9.33 lakh,"48,427 km",Diesel,Manual
+2025 Renault Kwid,₹4.54 lakh,"27,203 km",CNG,Manual
+2018 Toyota YARIS,₹3.40 lakh,"69,932 km",Petrol,Manual
+2015 Maruti Alto K10,₹1.57 lakh,"28,086 km",Petrol,Manual
+2016 Hyundai Grand i10,₹3.10 lakh,"65,031 km",Petrol,Missing Transmission
+2015 Honda City,₹3.33 lakh,"32,396 km",Petrol,Manual
+2017 Hyundai Creta,₹4.91 lakh,"70,067 km",Petrol,Missing Transmission
+2018 Hyundai NEW SANTRO,₹2.64 lakh,"49,363 km",CNG,Manual
+2019 Renault TRIBER,₹2.98 lakh,"56,442 km",Petrol,Manual
+2019 Maruti Celerio,₹3.05 lakh,"69,304 km",Petrol,Missing Transmission
+2019 Hyundai Creta,₹6.27 lakh,"66,441 km",Petrol,Missing Transmission
+2018 Toyota YARIS,₹4.68 lakh,"53,045 km",Petrol,Missing Transmission
+2022 MG HECTOR,₹9.40 lakh,"72,016 km",Diesel,Manual
+2017 Hyundai Grand i10,₹2.49 lakh,"59,928 km",Petrol,Manual
+2021 Tata NEXON,₹6.26 lakh,"34,304 km",Petrol,Missing Transmission
+2018 Ford Ecosport,₹4.42 lakh,"57,513 km",Petrol,Missing Transmission
+2018 Toyota YARIS,₹4.55 lakh,"1,09,066 km",Petrol,Missing Transmission
+2015 Maruti Swift Dzire,₹2.08 lakh,"65,853 km",Petrol,Manual
+2022 Renault TRIBER,₹3.47 lakh,"43,748 km",Petrol,Manual
+2020 Maruti Celerio,₹3.25 lakh,"44,705 km",Petrol,Missing Transmission
+2019 Ford Ecosport,₹5.20 lakh,"36,055 km",Petrol,Manual
+2022 Tata NEXON,₹6.31 lakh,"51,264 km",Petrol,Missing Transmission
+2020 Hyundai Creta,₹8.67 lakh,"49,612 km",Petrol,Missing Transmission
+2021 MG HECTOR,₹8.32 lakh,"84,782 km",Petrol,Missing Transmission
+2016 Maruti Swift Dzire,₹2.46 lakh,"25,121 km",Petrol,Manual
+2019 Tata TIGOR,₹3.11 lakh,"68,316 km",Petrol,Manual
+2019 Maruti Celerio,₹3.15 lakh,"66,387 km",CNG,Missing Transmission
+2014 Toyota Corolla Altis,₹3.44 lakh,"84,018 km",CNG,Manual
+2017 Volkswagen Ameo,₹3.24 lakh,"37,773 km",Petrol,Manual
+2022 MG HECTOR,₹8.77 lakh,"86,162 km",Petrol,Missing Transmission
+2015 Maruti Alto 800,₹1.53 lakh,"41,553 km",Petrol,Manual
+2016 Maruti Celerio,₹2.16 lakh,"75,697 km",Petrol,Missing Transmission
+2021 KIA SONET,₹6.37 lakh,"42,429 km",Petrol,Manual
+2021 Ford Ecosport,₹5.51 lakh,"38,909 km",Petrol,Missing Transmission
+2022 Mahindra SCORPIO-N,₹14.43 lakh,"63,201 km",Petrol,Missing Transmission
+2023 Hyundai Creta,₹9.69 lakh,"37,327 km",Diesel,Manual
+2022 Tata PUNCH,₹4.61 lakh,"34,689 km",Petrol,Manual
+2014 Maruti Alto 800,₹1.33 lakh,"11,457 km",Petrol,Manual
+2024 Renault TRIBER,₹4.79 lakh,"15,192 km",Petrol,Manual
+2023 Tata NEXON,₹6.34 lakh,"16,624 km",Petrol,Missing Transmission
+2022 Tata NEXON,₹5.80 lakh,"91,247 km",CNG,Manual
+2023 Hyundai Creta,₹11.56 lakh,"72,509 km",Diesel,Missing Transmission
+2014 Maruti Alto 800,₹1.42 lakh,"35,191 km",Petrol,Manual
+2018 Maruti Celerio,₹3.04 lakh,"35,077 km",Petrol,Missing Transmission
+2020 Tata NEXON,₹4.52 lakh,"82,015 km",Petrol,Manual
+2023 Honda City,₹6.57 lakh,"72,661 km",Petrol,Manual
+2024 Toyota INNOVA HYCROSS,₹28.55 lakh,"24,109 km",Hybrid,Missing Transmission
+2022 Renault Kiger,₹3.20 lakh,"67,925 km",Petrol,Manual
+2022 Tata TIGOR,₹3.91 lakh,"68,693 km",CNG,Manual
+2022 Maruti Celerio,₹4.40 lakh,"47,908 km",Petrol,Missing Transmission
+2018 Honda City,₹5.54 lakh,"63,245 km",Petrol,Missing Transmission
+2022 Tata NEXON,₹5.35 lakh,"78,603 km",Diesel,Missing Transmission
+2021 KIA SONET,₹5.60 lakh,"43,458 km",Petrol,Manual
+2020 Honda Amaze,₹3.60 lakh,"60,855 km",Petrol,Manual
+2016 Maruti Eeco,₹2.70 lakh,"47,578 km",CNG,Manual
+2017 Mahindra Kuv100,₹2.21 lakh,"47,077 km",Petrol,Manual
+2015 Ford Figo Aspire,₹2.43 lakh,"27,601 km",Petrol,Missing Transmission
+2024 Maruti Grand Vitara,₹7.72 lakh,"45,152 km",Petrol,Manual
+2022 Tata NEXON,₹5.61 lakh,"98,286 km",Diesel,Missing Transmission
+2025 Maruti Ciaz,₹9.65 lakh,"5,025 km",Petrol,Missing Transmission
+2024 MG HECTOR PLUS,₹12.49 lakh,"19,587 km",Petrol,Manual
+2022 Maruti S PRESSO,₹2.45 lakh,"85,097 km",Petrol,Manual
+2017 Tata TIGOR,₹2.65 lakh,"41,290 km",Petrol,Manual
+2015 Hyundai Grand i10,₹2.75 lakh,"69,913 km",Petrol,Missing Transmission
+2017 Mahindra Kuv100,₹1.92 lakh,"40,077 km",Petrol,Manual
+2021 Ford FREESTYLE,₹4.70 lakh,"21,295 km",Petrol,Manual
+2017 Honda City,₹5.20 lakh,"69,923 km",Petrol,Missing Transmission
+2022 Maruti Grand Vitara,₹7.24 lakh,"72,949 km",Petrol,Manual
+2021 KIA SONET,₹5.28 lakh,"71,143 km",Petrol,Manual
+2023 Maruti BREZZA,₹7.61 lakh,"56,120 km",Petrol,Missing Transmission
+2024 Tata NEXON,₹8.77 lakh,"15,517 km",Petrol,Missing Transmission
+2021 Hyundai GRAND I10 NIOS,₹4.40 lakh,"82,280 km",CNG,Manual
+2022 Tata PUNCH,₹4.01 lakh,"18,448 km",Petrol,Manual
+2022 Maruti BREZZA,₹5.33 lakh,"75,203 km",Petrol,Manual
+2016 Mahindra Kuv100,₹2.45 lakh,"22,314 km",CNG,Manual
+2022 Hyundai VENUE,₹4.61 lakh,"73,770 km",Petrol,Manual
+2020 KIA SONET,₹5.11 lakh,"46,295 km",Petrol,Manual
+2014 Ford Figo,₹1.62 lakh,"50,786 km",Petrol,Manual
+2016 Hyundai Verna,₹3.51 lakh,"75,369 km",Petrol,Manual
+2022 Tata TIGOR,₹4.65 lakh,"42,108 km",CNG,Manual
+2017 Hyundai Grand i10,₹2.73 lakh,"39,123 km",Petrol,Manual
+2023 Tata ALTROZ,₹5.71 lakh,"81,056 km",CNG,Manual
+2022 Maruti Vitara Brezza,₹5.87 lakh,"65,753 km",Petrol,Manual
+2021 Hyundai VENUE,₹4.52 lakh,"97,414 km",Petrol,Manual
+2023 Hyundai VENUE,₹7.89 lakh,"64,119 km",Petrol,Missing Transmission
+2022 Maruti BREZZA,₹8.19 lakh,"46,199 km",Petrol,Missing Transmission
+2022 Tata PUNCH,₹4.92 lakh,"55,220 km",CNG,Missing Transmission
+2023 Tata ALTROZ,₹4.71 lakh,"35,022 km",Petrol,Manual
+2022 Maruti Vitara Brezza,₹6.29 lakh,"47,305 km",Petrol,Missing Transmission
+2017 Honda City,₹4.47 lakh,"62,248 km",Petrol,Missing Transmission
+2021 KIA SONET,₹5.83 lakh,"51,345 km",Petrol,Missing Transmission
+2018 Honda WR-V,₹3.30 lakh,"82,528 km",Petrol,Manual
+2024 Tata ALTROZ,₹5.61 lakh,"61,992 km",Petrol,Missing Transmission
+2014 Hyundai Grand i10,₹2.20 lakh,"44,971 km",CNG,Missing Transmission
+2023 Tata ALTROZ,₹5.90 lakh,"25,655 km",Petrol,Missing Transmission
+2021 Hyundai VENUE,₹5.66 lakh,"35,126 km",Petrol,Manual
+2022 Tata TIGOR,₹4.05 lakh,"71,249 km",CNG,Manual
+2021 Hyundai VENUE,₹5.25 lakh,"50,263 km",Petrol,Manual
+2021 Maruti Vitara Brezza,₹4.90 lakh,"22,583 km",Petrol,Manual
+2018 Honda Amaze,₹3.88 lakh,"1,13,381 km",CNG,Missing Transmission
+2013 Honda Amaze,₹1.56 lakh,"65,988 km",Petrol,Manual
+2015 Honda Amaze,₹1.78 lakh,"68,910 km",Petrol,Manual
+2022 Hyundai NEW I20,₹5.75 lakh,"41,825 km",Petrol,Missing Transmission
+2014 Hyundai Grand i10,₹1.95 lakh,"81,613 km",Petrol,Manual
+2021 Maruti S Cross,₹5.80 lakh,"2,145 km",Petrol,Manual
+2024 Mahindra XUV 3XO,₹9.23 lakh,"21,293 km",Petrol,Manual
+2019 Hyundai i20 Active,₹4.40 lakh,"53,069 km",Petrol,Manual
+2023 MG ASTOR,₹6.12 lakh,"54,682 km",Petrol,Manual
+2015 Hyundai Grand i10,₹1.72 lakh,"1,04,808 km",Petrol,Manual
+2024 Tata ALTROZ,₹5.74 lakh,"40,033 km",Petrol,Missing Transmission
+2016 Honda Amaze,₹2.16 lakh,"82,679 km",Petrol,Manual
+2017 Honda Amaze,₹2.28 lakh,"86,219 km",Petrol,Manual
+2021 Hyundai GRAND I10 NIOS,₹4.46 lakh,"27,300 km",Petrol,Missing Transmission
+2023 Hyundai AURA,₹5.45 lakh,"42,759 km",CNG,Manual
+2014 Honda Brio,₹2.15 lakh,"40,556 km",CNG,Missing Transmission
+2022 Hyundai AURA,₹4.70 lakh,"89,601 km",CNG,Manual
+2019 Hyundai Verna,₹6.54 lakh,"81,425 km",Petrol,Missing Transmission
+2022 Honda City,₹8.15 lakh,"66,297 km",Petrol,Manual
+2023 Honda ELEVATE,₹11.30 lakh,"44,725 km",Petrol,Missing Transmission
+2024 Tata Curvv,₹9.73 lakh,"50,236 km",Petrol,Manual
+2023 Tata Harrier,₹9.04 lakh,"81,434 km",Diesel,Manual
+2023 Tata Safari,₹12.80 lakh,"58,699 km",Diesel,Missing Transmission
+2019 Honda Amaze,₹3.88 lakh,"32,313 km",Petrol,Missing Transmission
+2024 Hyundai AURA,₹4.31 lakh,"36,131 km",Petrol,Manual
+2024 MG ASTOR,₹7.70 lakh,"21,318 km",Petrol,Manual
+2019 Honda Civic,₹7.52 lakh,"73,004 km",Petrol,Missing Transmission
+2020 KIA SONET,₹6.90 lakh,"87,545 km",Petrol,Missing Transmission
+2024 Tata Curvv,₹10.95 lakh,"29,193 km",Petrol,Missing Transmission
+2020 Honda Amaze,₹4.01 lakh,"39,472 km",Petrol,Manual
+2022 Hyundai NEW I20,₹5.50 lakh,"1,21,970 km",Petrol,Missing Transmission
+2024 Hyundai EXTER,₹6.88 lakh,"4,362 km",Petrol,Missing Transmission
+2023 Honda Amaze,₹5.93 lakh,"12,829 km",CNG,Missing Transmission
+2023 Hyundai EXTER,₹6.15 lakh,"26,114 km",Petrol,Missing Transmission
+2021 KIA SONET,₹6.12 lakh,"34,841 km",Petrol,Missing Transmission
+2024 MG ASTOR,₹9.49 lakh,"24,466 km",Petrol,Missing Transmission
+2018 Honda Amaze,₹4.17 lakh,"38,726 km",Petrol,Missing Transmission
+2024 MG ASTOR,₹8.26 lakh,"49,289 km",Petrol,Missing Transmission
+2022 MG ASTOR,₹8.63 lakh,"22,658 km",Petrol,Missing Transmission
+2024 Tata Curvv,₹11.44 lakh,"7,134 km",Diesel,Manual
+2024 Honda ELEVATE,₹12.47 lakh,"5,279 km",Petrol,Missing Transmission
+2019 Honda Amaze,₹4.55 lakh,"56,907 km",Petrol,Missing Transmission
+2019 Hyundai Creta,₹7.42 lakh,"58,139 km",Petrol,Missing Transmission
+2015 Hyundai i20 Active,₹2.85 lakh,"76,929 km",Petrol,Manual
+2018 Maruti Ciaz,₹4.85 lakh,"57,612 km",Petrol,Manual
+2012 Maruti Swift,₹1.30 lakh,"87,845 km",Petrol,Manual
+2017 Mahindra TUV300,₹2.62 lakh,"71,473 km",Diesel,Manual
+2016 Datsun Redi Go,₹1.47 lakh,"75,080 km",Petrol,Manual
+2013 Maruti Alto 800,₹1.48 lakh,"56,653 km",Petrol,Manual
+2013 Maruti Ertiga,₹2.15 lakh,"87,596 km",Petrol,Manual
+2013 Maruti Swift,₹1.93 lakh,"57,084 km",Petrol,Manual
+2015 Maruti Wagon R 1.0,₹1.70 lakh,"85,453 km",CNG,Manual
+2014 Hyundai Eon,₹1.13 lakh,"83,288 km",Petrol,Manual
+2013 Maruti Wagon R 1.0,₹1.70 lakh,"73,687 km",CNG,Manual
+2013 Maruti Alto K10,₹1.35 lakh,"95,840 km",Petrol,Manual
+2017 Maruti Alto 800,₹1.70 lakh,"56,374 km",CNG,Manual
+2020 Maruti Swift,₹5.31 lakh,"67,199 km",Petrol,Missing Transmission
+2014 Honda Amaze,₹2.50 lakh,"76,466 km",Petrol,Manual
+2013 Hyundai i10,₹1.25 lakh,"80,000 km",Petrol,Missing Transmission
+2013 Hyundai i10,₹1.37 lakh,"80,823 km",CNG,Manual
+2016 Maruti Alto 800,₹2.08 lakh,"20,274 km",Petrol,Manual
+2014 Maruti Wagon R 1.0,₹1.75 lakh,"1,32,475 km",CNG,Manual
+2014 Maruti Wagon R 1.0,₹1.83 lakh,"1,64,369 km",CNG,Manual
+2014 Maruti Celerio,₹2.15 lakh,"75,295 km",Petrol,Missing Transmission
+2013 Honda City,₹1.90 lakh,"88,042 km",Petrol,Manual
+2018 Mahindra XUV500,₹5.47 lakh,"48,588 km",Diesel,Manual
+2016 Mahindra Kuv100,₹1.60 lakh,"51,048 km",Petrol,Manual
+2017 Ford Ecosport,₹2.60 lakh,"1,55,606 km",Diesel,Manual
+2025 Maruti New Wagon-R,₹5.50 lakh,"28,181 km",CNG,Manual
+2018 Ford Figo Aspire,₹2.81 lakh,"64,960 km",Diesel,Manual
+2020 Maruti Baleno,₹4.60 lakh,"73,696 km",Petrol,Manual
+2020 Maruti Baleno,₹4.40 lakh,"62,559 km",Petrol,Manual
+2014 Maruti Celerio,₹2.60 lakh,"55,064 km",Petrol,Missing Transmission
+2018 Maruti Ertiga,₹5.10 lakh,"97,627 km",Petrol,Manual
+2017 Tata Hexa,₹4.07 lakh,"1,20,130 km",Diesel,Manual
+2013 Ford Ecosport,₹2.10 lakh,"46,754 km",Petrol,Manual
+2023 Tata TIGOR,₹5.20 lakh,"11,512 km",Petrol,Manual
+2019 Maruti Dzire,₹3.90 lakh,"84,047 km",Petrol,Manual
+2019 Honda Amaze,₹4.90 lakh,"1,05,975 km",Petrol,Missing Transmission
+2015 Hyundai Verna,₹3.35 lakh,"96,199 km",CNG,Manual
+2019 Tata NEXON,₹4.72 lakh,"76,731 km",Petrol,Manual
+2018 Maruti Swift,₹4.50 lakh,"47,840 km",Petrol,Missing Transmission
+2016 Ford New Figo,₹2.10 lakh,"71,869 km",Diesel,Manual
+2014 Honda City,₹3.05 lakh,"82,492 km",Petrol,Manual
+2017 Maruti Wagon R 1.0,₹2.95 lakh,"17,658 km",Petrol,Manual
+2019 Tata NEXON,₹3.60 lakh,"72,960 km",CNG,Missing Transmission
+2017 Ford Ecosport,₹3.56 lakh,"64,230 km",CNG,Manual
+2017 Hyundai Verna,₹5.95 lakh,"45,490 km",Petrol,Manual
+2018 Tata NEXON,₹4.00 lakh,"1,33,124 km",Diesel,Missing Transmission
+2017 Maruti S Cross,₹4.60 lakh,"59,616 km",Diesel,Manual
+2022 Tata Tiago,₹4.75 lakh,"73,347 km",CNG,Manual
+2018 Maruti Baleno,₹3.30 lakh,"59,054 km",Petrol,Manual
+2017 Maruti Baleno,₹2.95 lakh,"1,18,767 km",CNG,Manual
+2018 Maruti Baleno,₹4.50 lakh,"47,470 km",Petrol,Manual
+2019 Maruti Baleno,₹3.80 lakh,"35,129 km",Petrol,Manual
+2017 Hyundai Elite i20,₹4.50 lakh,"58,937 km",Petrol,Manual
+2015 Honda Brio,₹1.85 lakh,"60,298 km",Petrol,Manual
+2021 Maruti Swift,₹4.38 lakh,"65,000 km",Petrol,Manual
+2019 Honda WR-V,₹3.55 lakh,"37,720 km",Petrol,Manual
+2023 Maruti Swift,₹5.52 lakh,"50,446 km",Petrol,Manual
+2019 Maruti Baleno,₹3.30 lakh,"46,681 km",CNG,Manual
+2017 Hyundai Elite i20,₹3.25 lakh,"73,157 km",Petrol,Manual
+2022 Tata Tiago,₹4.50 lakh,"56,574 km",CNG,Manual
+2011 Hyundai Santro Xing,₹0.67 lakh,"81,140 km",CNG,Manual
+2013 Honda Amaze,₹1.51 lakh,"66,876 km",Petrol,Manual
+2015 Hyundai Creta,₹3.80 lakh,"36,482 km",Petrol,Manual
+2014 Honda Amaze,₹3.00 lakh,"50,705 km",Petrol,Manual
+2015 Hyundai Creta,₹4.50 lakh,"26,759 km",Petrol,Manual
+2019 Tata Tiago,₹3.50 lakh,"88,548 km",CNG,Manual
+2015 Honda City,₹3.66 lakh,"1,05,261 km",Petrol,Manual
+2019 Maruti New Wagon-R,₹3.00 lakh,"60,286 km",Petrol,Manual
+2021 Maruti Alto,₹3.50 lakh,"89,653 km",CNG,Manual
+2018 Maruti Wagon R 1.0,₹3.50 lakh,"1,16,979 km",CNG,Manual
+2016 Hyundai Grand i10,₹2.20 lakh,"91,638 km",Petrol,Manual
+2017 Hyundai Elite i20,₹3.50 lakh,"1,23,621 km",Petrol,Manual
+2018 Honda WR-V,₹4.40 lakh,"97,621 km",Petrol,Manual
+2016 Mahindra XUV500,₹3.75 lakh,"30,782 km",Diesel,Manual
+2020 Hyundai GRAND I10 NIOS,₹4.50 lakh,"82,903 km",CNG,Manual
+2019 Hyundai Creta,₹6.00 lakh,"65,378 km",Petrol,Manual
+2021 Tata NEXON,₹6.10 lakh,"50,663 km",Petrol,Missing Transmission
+2018 Hyundai Creta,₹6.38 lakh,"2,01,953 km",Petrol,Manual
+2019 Honda City,₹7.00 lakh,"64,992 km",Petrol,Manual
+2016 Honda BR-V,₹3.00 lakh,"2,13,436 km",Diesel,Manual
+2020 Maruti New Wagon-R,₹4.20 lakh,"26,568 km",Petrol,Manual
+2021 Hyundai NEW I20,₹4.30 lakh,"29,957 km",Petrol,Manual
+2013 Maruti Alto 800,₹1.45 lakh,"94,299 km",CNG,Manual
+2014 Maruti Wagon R 1.0,₹1.80 lakh,"1,00,992 km",CNG,Manual
+2013 Maruti Wagon R 1.0,₹1.84 lakh,"1,28,887 km",CNG,Manual
+2013 Maruti Wagon R 1.0,₹1.69 lakh,"44,801 km",Petrol,Manual
+2011 Hyundai Eon,₹0.80 lakh,"15,607 km",Petrol,Manual
+2020 Hyundai AURA,₹3.75 lakh,"57,164 km",Petrol,Manual
+2012 Toyota Etios,₹1.60 lakh,"80,493 km",Petrol,Manual
+2019 Hyundai Verna,₹6.40 lakh,"90,938 km",CNG,Missing Transmission
+2022 Maruti IGNIS,₹4.69 lakh,"18,881 km",Petrol,Manual
+2019 Mahindra XUV500,₹9.40 lakh,"44,451 km",Diesel,Manual
+2013 Maruti Wagon R 1.0,₹1.27 lakh,"1,03,553 km",CNG,Manual
+2013 Maruti Wagon R 1.0,₹1.35 lakh,"1,89,385 km",CNG,Manual
+2012 Maruti Alto,₹0.70 lakh,"97,869 km",Petrol,Manual
+2013 Maruti Zen Estilo,₹0.93 lakh,"90,182 km",CNG,Manual
+2012 Maruti Alto K10,₹0.85 lakh,"97,764 km",Petrol,Manual
+2020 Maruti Alto,₹2.61 lakh,"52,581 km",CNG,Manual
+2014 Maruti Wagon R 1.0,₹1.80 lakh,"1,29,978 km",CNG,Manual
+2011 Honda City,₹1.58 lakh,"44,956 km",Petrol,Manual
+2021 Hyundai Creta,₹9.20 lakh,"45,015 km",Diesel,Manual
+2021 Hyundai Creta,₹9.50 lakh,"22,872 km",Petrol,Manual
+2013 Nissan Terrano,₹1.75 lakh,"98,982 km",Petrol,Manual
+2014 Maruti Wagon R 1.0,₹1.61 lakh,"87,084 km",CNG,Manual
+2017 Honda City,₹3.00 lakh,"88,632 km",Petrol,Manual
+2012 Hyundai i10,₹0.94 lakh,"38,849 km",Petrol,Manual
+2013 Maruti Alto 800,₹1.32 lakh,"50,730 km",Petrol,Manual
+2022 Hyundai Creta,₹11.50 lakh,"48,323 km",Petrol,Manual
+2014 Maruti Wagon R 1.0,₹1.70 lakh,"94,412 km",Petrol,Manual
+2012 Maruti Swift,₹1.50 lakh,"96,990 km",Petrol,Manual
+2021 Hyundai Creta,₹9.00 lakh,"1,05,945 km",Diesel,Manual
+2013 Maruti Wagon R 1.0,₹1.89 lakh,"58,526 km",Petrol,Manual
+2023 Toyota Glanza,₹6.70 lakh,"66,223 km",Petrol,Missing Transmission
+2018 Hyundai Xcent,₹3.60 lakh,"1,21,486 km",CNG,Manual
+2015 Maruti Wagon R 1.0,₹1.70 lakh,"82,214 km",Petrol,Manual
+2014 Maruti Wagon R 1.0,₹1.85 lakh,"85,703 km",CNG,Manual
+2014 Maruti Wagon R 1.0,₹2.00 lakh,"73,656 km",CNG,Manual
+2015 Maruti Eeco,₹1.65 lakh,"47,537 km",Petrol,Manual
+2014 Hyundai Grand i10,₹2.10 lakh,"1,25,613 km",Petrol,Manual
+2020 KIA SONET,₹5.90 lakh,"58,427 km",Petrol,Manual
+2015 Maruti Wagon R 1.0,₹2.25 lakh,"94,889 km",Petrol,Manual
+2016 Maruti Baleno,₹2.50 lakh,"68,383 km",Petrol,Manual
+2013 Maruti Wagon R 1.0,₹1.45 lakh,"1,85,459 km",CNG,Manual
+2013 Maruti Wagon R 1.0,₹1.50 lakh,"95,417 km",CNG,Manual
+2022 MG ASTOR,₹7.20 lakh,"56,743 km",Petrol,Manual
+2017 Datsun Redi Go,₹1.91 lakh,"75,905 km",Petrol,Manual
+2011 Maruti Alto K10,₹0.73 lakh,"1,06,893 km",Petrol,Manual
+2012 Maruti Wagon R 1.0,₹1.22 lakh,"1,19,823 km",CNG,Manual
+2012 Hyundai Santro Xing,₹0.90 lakh,"1,03,389 km",CNG,Manual
+2014 Maruti Wagon R 1.0,₹1.90 lakh,"62,949 km",Petrol,Manual
+2013 Maruti Alto 800,₹1.20 lakh,"83,333 km",Petrol,Manual
+2012 Maruti Swift,₹2.10 lakh,"1,16,387 km",Petrol,Manual
+2011 Honda City,₹1.10 lakh,"2,02,450 km",CNG,Manual
+2012 Honda City,₹1.20 lakh,"1,59,152 km",Petrol,Manual
+2016 Hyundai Grand i10,₹3.40 lakh,"41,931 km",Petrol,Manual
+2012 Maruti Swift,₹1.80 lakh,"58,298 km",Petrol,Manual
+2011 Hyundai i10,₹1.13 lakh,"41,220 km",Petrol,Manual
+2012 Maruti Swift,₹1.80 lakh,"97,888 km",CNG,Manual
+2011 Maruti Alto,₹0.70 lakh,"1,09,315 km",CNG,Manual
+2013 Maruti Alto 800,₹1.35 lakh,"30,719 km",CNG,Manual
+2013 Hyundai i20,₹2.20 lakh,"72,000 km",Petrol,Manual
+2024 Maruti Baleno,₹5.70 lakh,"33,583 km",CNG,Manual
+2022 Maruti XL6,₹10.19 lakh,"31,007 km",Petrol,Manual
+2023 Tata NEXON,₹10.10 lakh,"24,631 km",Petrol,Manual
+2016 Hyundai Elite i20,₹2.60 lakh,"1,56,173 km",Diesel,Manual
+2016 Maruti Baleno,₹2.75 lakh,"68,676 km",Petrol,Manual
+2011 Maruti Swift,₹1.30 lakh,"1,90,330 km",Petrol,Manual
+2011 Hyundai i20,₹0.85 lakh,"1,60,727 km",CNG,Manual

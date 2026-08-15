@@ -1,111 +1,154 @@
+import os
 import time
+import re
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
-from selenium.webdriver.common.by import By
 
 def setup_driver():
-
     options = webdriver.ChromeOptions()
-
-    driver = webdriver.Chrome(options=options)
-
+    # options.add_argument("--headless") # Keep commented out to watch the bulldozer work
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
     return driver
 
-def extract_car_data(car_details):
-    data_car={}
+def extract_car_data(card_soup):
+    data_car = {}
+    all_text = list(card_soup.stripped_strings)
 
-    try:
-        title = car_details.find('span',class_='sc-ksBlki dxpZAa')
-        data_car['Title'] = title.text.strip() if title else None
+    # DEFAULT VALUES: We NEVER drop a car silently again!
+    data_car['Title'] = "Missing Title"
+    data_car['Price'] = "Missing Price"
+    data_car['Kilometers'] = "Missing KM"
+    data_car['Fuel_Type'] = "Missing Fuel"
+    data_car['Transmission'] = "Missing Transmission"
 
-        price = car_details.find('div', class_='styles_priceWrap__VwWBV')
-        data_car['Price'] = price.text.strip() if price else None
+    # PRICE EXTRACTION
+    prices = [t for t in all_text if '₹' in t and '/m' not in t.lower() and 'emi' not in t.lower()]
+    if prices:
+        data_car['Price'] = prices[-1]
 
-        spec_list = car_details.find('ul',class_='sc-gsGlKM hCHamb')
+    # SPECS EXTRACTION
+    for text in all_text:
+        text_lower = text.lower()
+        if 'km' in text_lower and any(char.isdigit() for char in text_lower):
+            data_car['Kilometers'] = text
+        elif text_lower in ['petrol', 'diesel', 'cng', 'electric', 'hybrid']:
+            data_car['Fuel_Type'] = text
+        elif text_lower in ['manual', 'automatic']:
+            data_car['Transmission'] = text
 
-        if spec_list:
-            specs = spec_list.find_all('p')
-            data_car['Kilometers'] = specs[0].text.strip() if len(specs) > 0 else None
-            data_car['Fuel_Type'] = specs[1].text.strip() if len(specs) > 1 else None
-            data_car['Transmission'] = specs[2].text.strip() if len(specs) > 2 else None
-
-    except Exception as e:
-        print(f"Skipping a car due to extraction error: {e}")
+    # TITLE EXTRACTION (Hunts for the manufacturing year)
+    for text in all_text:
+        if re.match(r'^(19|20)\d{2}', text): 
+            data_car['Title'] = text
+            break
+            
+    # Fallback if no year is found
+    if data_car['Title'] == "Missing Title" and len(all_text) > 0:
+        data_car['Title'] = max(all_text[:5], key=len)
 
     return data_car
 
-def scroll_and_scraper(driver, url, target_car_count = 500):
+def scroll_and_scrape(driver, url, target_car_count=500):
     driver.get(url)
+    print("Loading page... Waiting 8 seconds for initial load...")
     time.sleep(8)
-
+    
     all_extracted_cars = []
     seen_cars = set()
-
-    last_height = driver.execute_script("return document.body.scrollHeight")
+    
+    stuck_counter = 0
+    previous_car_count = 0
+    
     while len(all_extracted_cars) < target_car_count:
-
-        driver.execute_script("window.scrollBy(0,document.body.scrollHeight);")
-        time.sleep(10)
-
+        
+        # 1. THE PRECISION SHIELD-BREAKER (Only removes sticky overlays, safe!)
+        driver.execute_script("""
+            var elements = document.querySelectorAll('div, header, footer');
+            for (var i = 0; i < elements.length; i++) {
+                var pos = window.getComputedStyle(elements[i]).position;
+                if (pos === 'fixed' || pos === 'sticky') {
+                    elements[i].style.display = 'none';
+                }
+            }
+        """)
+        
+        # 2. THE BUTTON HUNTER (Searches for any button saying "View", "More", or "Load")
         try:
-            view_more_btn = driver.find_element(By.XPATH,"//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz',)'more')]")    
-            driver.execute_script("arguments[0].click();",view_more_btn)
-            print("Found and clicked the 'View more' button! Loading next batch...")
-            time.sleep(3)
-
+            view_btn = driver.find_element(By.XPATH, "//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'view') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'more')]")
+            
+            # Scroll the button to the center of the screen so it isn't blocked, then click it
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", view_btn)
+            time.sleep(1)
+            driver.execute_script("arguments[0].click();", view_btn)
+            print(">>> PHYSICAL 'VIEW MORE' BUTTON CLICKED! Loading next batch... <<<")
+            time.sleep(4)
         except:
-            pass
+            pass # If the button isn't there, just ignore and keep scrolling
+        
+        # 3. Smooth scroll
+        driver.execute_script("window.scrollBy(0, 700);")
+        time.sleep(4.5) 
+        
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        current_cards = soup.find_all('div', class_='styles_contentWrap__9oSrl')
+        
+        # 4. THE FOOTPRINT LOCATOR (Tag-Agnostic Extraction)
+        current_cards = []
+        for div in soup.find_all('div'):
+            strings = list(div.stripped_strings)
+            if 5 <= len(strings) <= 35:
+                text_blob = " ".join(strings).lower()
+                if '₹' in text_blob and 'km' in text_blob:
+                    if text_blob.count('₹') <= 6:
+                        current_cards.append(div)
 
         for card in current_cards:
             car_data = extract_car_data(card)
+            
+            unique_id = f"{car_data['Title']}_{car_data['Price']}_{car_data['Kilometers']}"
+            if unique_id not in seen_cars:
+                seen_cars.add(unique_id)
+                all_extracted_cars.append(car_data)
 
-            if car_data['Title'] and car_data['Price']:
-                unique_id = f"{car_data['Title']} - {car_data['Price']}"
+        print(f"Currently secured {len(all_extracted_cars)}/{target_car_count} raw cars...")
 
-                if unique_id not in seen_cars:
-                    seen_cars.add(unique_id)
-                    all_extracted_cars.append(car_data)
-
-        print(f"Currently loaded {len(current_cards)}/{target_car_count} cars.....")
-
-        if len(current_cards) >= target_car_count:
+        if len(all_extracted_cars) >= target_car_count:
             print("Target car volume reached!")
             break
 
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            print("Height didn't change. Waiting 3 extra seconds to double check...")
-            time.sleep(3)
-            new_height = driver.execute_script("return document.body.scrollHeight")
-
-            if new_height == last_height:
-                print("End of the page truly reached. No more cars to load")
+        # 5. Stuck Check
+        if len(all_extracted_cars) == previous_car_count:
+            stuck_counter += 1
+            if stuck_counter >= 3:
+                print("Count hasn't changed. Nudging the network...")
+                driver.execute_script("window.scrollBy(0, -400);")
+                time.sleep(1.5)
+                driver.execute_script("window.scrollBy(0, 1200);")
+                time.sleep(3.5)
+            if stuck_counter >= 6:
+                print("End of the page truly reached. No more cars to load.")
                 break
+        else:
+            stuck_counter = 0 
+            previous_car_count = len(all_extracted_cars)
 
-        last_height = new_height
+    return pd.DataFrame(all_extracted_cars)
 
-    print("Extracting data into Dataframe...")
-    final_soup = BeautifulSoup(driver.page_source,'lxml')
-    car_cards = final_soup.find_all('div',class_="styles_normalCardWrapper__qDZjq")
-
-    all_cars = []
-    for card in car_cards:
-        car_data = extract_car_data(card)
-        if car_data:
-            all_cars.append(car_data)
-    return pd.DataFrame(all_cars)
-
-if __name__=='__main__':
+if __name__ == '__main__':
     url = 'https://www.cars24.com/buy-used-cars-new-delhi/'
     driver = setup_driver()
-    print("Starting the scraper...")
-
-    df = scroll_and_scraper(driver, url, target_car_count=500)
-
+    
+    print("Starting the ultimate scraper...")
+    df = scroll_and_scrape(driver, url, target_car_count=500)
+    
     driver.quit()
-
-    df.to_csv(r"C:\Programming\Machine Learning\Used Car Price Intelligence\Used Car Arbitrage\data\raw\raw_car_listing.csv",index=False)
-    print(f"Success! Saved {len(df)} cars to raw_car_listing.csv")
+    
+    save_path = r"C:\Programming\Machine Learning\Used Car Price Intelligence\Used Car Arbitrage\data\raw"
+    os.makedirs(save_path, exist_ok=True)
+    file_path = os.path.join(save_path, "raw_car_listings.csv")
+    df.to_csv(file_path, index=False)
+    
+    print(f"Success! Saved {len(df)} cars to {file_path}")

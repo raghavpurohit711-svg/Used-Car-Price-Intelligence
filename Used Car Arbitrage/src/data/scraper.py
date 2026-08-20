@@ -47,7 +47,7 @@ def extract_car_data(card_soup):
 
     return data_car
 
-def scroll_and_scrape(driver, url, target_car_count=500):
+def scroll_and_scrape(driver, url):
     driver.get(url)
     print("Loading page... Waiting 8 seconds for initial load...")
     time.sleep(8)
@@ -58,7 +58,7 @@ def scroll_and_scrape(driver, url, target_car_count=500):
     stuck_counter = 0
     previous_car_count = 0
     
-    while len(all_extracted_cars) < target_car_count:
+    while True:
         
         driver.execute_script("""
             var elements = document.querySelectorAll('div, header, footer');
@@ -102,11 +102,8 @@ def scroll_and_scrape(driver, url, target_car_count=500):
                 seen_cars.add(unique_id)
                 all_extracted_cars.append(car_data)
 
-        print(f"Currently secured {len(all_extracted_cars)}/{target_car_count} raw cars...")
+        print(f"Currently secured {len(all_extracted_cars)} raw cars...")
 
-        if len(all_extracted_cars) >= target_car_count:
-            print("Target car volume reached!")
-            break
         if len(all_extracted_cars) == previous_car_count:
             stuck_counter += 1
             if stuck_counter >= 3:
@@ -129,7 +126,7 @@ if __name__ == '__main__':
     driver = setup_driver()
     
     print("Starting the ultimate scraper...")
-    df = scroll_and_scrape(driver, url, target_car_count=500)
+    df = scroll_and_scrape(driver, url)
     
     driver.quit()
     

@@ -19,7 +19,7 @@ class CarFeatures(BaseModel):
     Clean_Kilometers : int
     Brand : str
     Model : str
-    Fuel_type : str
+    Fuel_Type : str
     Transmission : str
 
 @app.post("/predict")
@@ -32,7 +32,7 @@ def predict_price(car : CarFeatures):
             "Clean_Kilometers" : car.Clean_Kilometers,
             "Brand" : car.Brand,
             "Model" : car.Model,
-            "Fuel_Type" : car.Fuel_type,
+            "Fuel_Type" : car.Fuel_Type,
             "Transmission" : car.Transmission
         }])
 

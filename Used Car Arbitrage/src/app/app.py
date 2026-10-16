@@ -37,14 +37,14 @@ col1, col2 = st.columns(2)
 current_year = datetime.now().year
 
 with col1:
-    brand = st.text_input("Brand", placeholder="eg. Hyundai, Maruti, Honda").strip().title()
-    model_name = st.text_input("Model", placeholder="eg. Creta, Swift, City").strip().title()
+    brand = st.text_input("Brand", placeholder="eg. Hyundai, Maruti, Honda").strip().lower()
+    model_name = st.text_input("Model", placeholder="eg. Creta, Swift, City").strip().lower()
     year = st.number_input("Manufacturing Year", min_value=2000, max_value=current_year, value=2019, step=1)
 
 with col2:
     kilometers = st.number_input("Kilometers Driven", min_value=0, max_value=500000, value=45000, step=1000)
-    Fuel_Type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "CNG"])
-    transmission = st.selectbox("Transmission", ["Manual", "Automatic"])
+    Fuel_Type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "CNG"]).lower()
+    transmission = st.selectbox("Transmission", ["Manual", "Automatic"]).lower()
 
 st.divider()
 if st.button("Evaluate Listing", type="primary", use_container_width=True):
@@ -73,7 +73,6 @@ if st.button("Evaluate Listing", type="primary", use_container_width=True):
 
                 st.success("Valuation complete")
                 st.metric(label="Estimated Fair Market Value", value=f"₹{predicted_price:,}")
-                st.info("**Arbitrage Tip:** Compare this fair market value against the seller's asking price to identify potential arbitrage opportunities.")
                 
             except Exception as e:
                 st.error(f"Model Rejection : {str(e)}")
